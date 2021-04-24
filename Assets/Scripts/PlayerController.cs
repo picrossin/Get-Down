@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private int _currentRecordCount;
     private int _currentCatchFrames;
     private GameObject _coyoteRecord;
-    
+
     private void Start()
     {
         _spriteRenderer = sprite.GetComponent<SpriteRenderer>();
@@ -57,13 +57,14 @@ public class PlayerController : MonoBehaviour
             _currentRecordCount--;
         }
 
-        if (Input.GetButtonDown("Fire2") && _currentCatchFrames <= 0)
+        if (Input.GetButtonDown("Fire2") && _currentCatchFrames <= 0 && _coyoteRecord == null)
         {
             _currentCatchFrames = catchFramesTotal;
         }
         else if (Input.GetButtonDown("Fire2") && _coyoteRecord != null)
         {
             Destroy(_coyoteRecord);
+            _coyoteRecord = null;
             _currentRecordCount++;
         }
     }
@@ -100,15 +101,12 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator CollideWithRecord(Collider other)
     {
-        if (_currentCatchFrames > 0)
+        _coyoteRecord = other.gameObject;
+        yield return new WaitForSeconds(recordCoyoteSeconds);
+        if (_coyoteRecord != null)
         {
-            Destroy(other.gameObject);
-            _currentRecordCount++;
-        }
-        else
-        {
-            _coyoteRecord = other.gameObject;
-            yield return new WaitForSeconds(recordCoyoteSeconds);
+            print("ouch");
+            Destroy(_coyoteRecord);
             _coyoteRecord = null;
         }
     }

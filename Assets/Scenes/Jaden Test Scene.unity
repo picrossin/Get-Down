@@ -241,7 +241,7 @@ MonoBehaviour:
   throwSpeed: 7
   totalRecords: 1
   catchFramesTotal: 10
-  recordCoyoteSeconds: 1
+  recordCoyoteSeconds: 0.15
   sprite: {fileID: 2127450452}
   record: {fileID: 6772630126639194723, guid: 954ec375e73534348afc375f881079bb, type: 3}
 --- !u!54 &86219361
