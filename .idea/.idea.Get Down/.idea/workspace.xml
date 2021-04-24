@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619245653380</updated>
       <workItem from="1619245669938" duration="2271000" />
-      <workItem from="1619275250812" duration="317000" />
+      <workItem from="1619275250812" duration="970000" />
     </task>
     <servers />
   </component>
