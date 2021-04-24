@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6772630126639194724}
   - component: {fileID: 6772630126639194720}
   - component: {fileID: 6772630126639194725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Record
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 6772630127896914612}
   - component: {fileID: 6772630127896914618}
   - component: {fileID: 6772630127896914613}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
