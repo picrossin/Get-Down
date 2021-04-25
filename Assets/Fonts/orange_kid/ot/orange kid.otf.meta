@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7daefb88027b7c498b0a2b903e86121
+guid: 059f5cdb32f573848a0a495155b2e25f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,7 @@ TrueTypeFontImporter:
   fontNames:
   - Orange Kid
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 756c37a6dcef1fe40af426362dc9c285, type: 3}
+  - {fileID: 12800000, guid: 83b8daa051a76e7459681686c3693ceb, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
