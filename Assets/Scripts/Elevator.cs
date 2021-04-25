@@ -23,6 +23,6 @@ public class Elevator : MonoBehaviour
 
     private void GotoNextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GameObject.FindGameObjectWithTag("TransitionManager").GetComponent<TransitionManager>().PlayElevatorTransition();
     }
 }

@@ -27,6 +27,8 @@
             <e p="Record.cs" t="Include" />
           </e>
           <e p="SetUpBoxCollider.cs" t="Include" />
+          <e p="TransitionManager.cs" t="Include" />
+          <e p="UIManager.cs" t="Include" />
         </e>
       </e>
       <e p="Get Down.sln" t="IncludeFlat" />

@@ -10,6 +10,8 @@ TagManager:
   - EnemyBullet
   - GameplayManager
   - Conductor
+  - TransitionManager
+  - UI
   layers:
   - Default
   - TransparentFX

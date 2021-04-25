@@ -50,6 +50,6 @@ public class GameplayManager : MonoBehaviour
 
     public void ResetScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameObject.FindGameObjectWithTag("TransitionManager").GetComponent<TransitionManager>().PlayDeathTransition();
     }
 }
