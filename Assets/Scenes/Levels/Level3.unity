@@ -11065,6 +11065,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: table_2x2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a719f0017613c1340bf824371cc14dc7, type: 3}
 --- !u!4 &213481961 stripped
@@ -38653,6 +38663,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: table_2x2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a719f0017613c1340bf824371cc14dc7, type: 3}
 --- !u!4 &746316292 stripped
@@ -42028,6 +42048,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: table_2x2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a719f0017613c1340bf824371cc14dc7, type: 3}
@@ -67092,6 +67122,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: table_2x2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a719f0017613c1340bf824371cc14dc7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a719f0017613c1340bf824371cc14dc7, type: 3}
 --- !u!4 &1283878205 stripped
@@ -76150,6 +76190,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9c0c53d1a06c4042a09f4f81ac2713f, type: 3}
 --- !u!4 &1480765501 stripped
@@ -79851,6 +79901,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9c0c53d1a06c4042a09f4f81ac2713f, type: 3}
@@ -91555,6 +91615,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9c0c53d1a06c4042a09f4f81ac2713f, type: 3}
 --- !u!4 &1869922402 stripped
@@ -96200,6 +96270,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: a9c0c53d1a06c4042a09f4f81ac2713f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9c0c53d1a06c4042a09f4f81ac2713f, type: 3}
