@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
             Vector3 throwDir = new Vector3(throwDir2d.x, 0f, throwDir2d.y);
             GameObject recordInstance = Instantiate(
                 record,
-                transform.position + throwDir * 1.5f,
+                transform.position + throwDir * 1f,
                 Quaternion.identity);
             recordInstance.GetComponent<Rigidbody>().AddForce(throwDir * throwSpeed * 100);
             _currentRecordCount--;
@@ -63,7 +63,6 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position += _movementInput / 100 * walkSpeed;
-        print(_movementInput);
 
         if (_currentCatchFrames > 0)
         {
@@ -77,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Record"))
+        if (other.CompareTag("Record") && other.gameObject.GetComponent<Record>().Bounces > 0)
         {
             if (_currentCatchFrames > 0)
             {

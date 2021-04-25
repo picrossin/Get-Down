@@ -8,7 +8,11 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Enemy" t="Include">
+            <e p="BulletDetectRecords.cs" t="Include" />
             <e p="ChaseEnemy.cs" t="Include" />
+            <e p="EnemyBullet.cs" t="Include" />
+            <e p="EnemyDamage.cs" t="Include" />
+            <e p="Shoot.cs" t="Include" />
           </e>
           <e p="FaceTowardsCamera.cs" t="Include" />
           <e p="Player" t="Include">

@@ -38,17 +38,4 @@ public class ChaseEnemy : MonoBehaviour
             transform.position += _moveDir / 100 * speed;
         }
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Record"))
-        {
-            EnemyDie();
-        }
-    }
-
-    private void EnemyDie()
-    {
-        Destroy(gameObject);
-    }
 }

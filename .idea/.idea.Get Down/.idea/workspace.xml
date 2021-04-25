@@ -23,12 +23,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jaden Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jaden Test Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pointer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pointer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Record.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Record.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BulletDetectRecords.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,8 +55,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Stationlarry.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BulletDetectRecords.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619245653380</updated>
       <workItem from="1619245669938" duration="2271000" />
-      <workItem from="1619275250812" duration="17754000" />
+      <workItem from="1619275250812" duration="27328000" />
     </task>
     <servers />
   </component>
@@ -201,9 +208,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="26" y="-10" width="1893" height="1027" maximized="true" key="dock-window-2/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619313530693" />
-    <state x="2558" y="-216" width="644" height="801" key="find.popup" timestamp="1619282904935">
+    <state x="2558" y="-216" width="644" height="801" key="find.popup" timestamp="1619317503262">
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
-    <state x="2558" y="-216" width="644" height="801" key="find.popup/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619282904935" />
+    <state x="2558" y="-216" width="644" height="801" key="find.popup/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619317503262" />
+    <state x="2543" y="-110" width="672" height="678" key="search.everywhere.popup" timestamp="1619315207648">
+      <screen x="1920" y="-335" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="-110" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619315207648" />
   </component>
 </project>
