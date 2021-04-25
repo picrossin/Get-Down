@@ -14,27 +14,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject sprite;
     [SerializeField] private GameObject record;
 
-    private SpriteRenderer _spriteRenderer;
-    private BoxCollider _mainCollider;
     private Transform _cursor;
 
     private Vector3 _movementInput;
     private int _currentRecordCount;
     private int _currentCatchFrames;
     private GameObject _coyoteRecord;
-    
+
     private void Start()
     {
-        _spriteRenderer = sprite.GetComponent<SpriteRenderer>();
-        _mainCollider = GetComponent<BoxCollider>();
         _cursor = GameObject.FindWithTag("Cursor").transform;
 
         _currentRecordCount = totalRecords;
-
-        // Form collider for enemies and records and such
-        Bounds spriteBounds = _spriteRenderer.bounds;
-        _mainCollider.center = spriteBounds.center;
-        _mainCollider.size = new Vector3(spriteBounds.extents.x * 2, 5f, spriteBounds.extents.y * 2);
     }
 
     private void Update()
@@ -51,19 +42,20 @@ public class PlayerController : MonoBehaviour
             Vector3 throwDir = new Vector3(throwDir2d.x, 0f, throwDir2d.y);
             GameObject recordInstance = Instantiate(
                 record,
-                transform.position + throwDir * 1.5f,
+                transform.position + throwDir * 1f,
                 Quaternion.identity);
             recordInstance.GetComponent<Rigidbody>().AddForce(throwDir * throwSpeed * 100);
             _currentRecordCount--;
         }
 
-        if (Input.GetButtonDown("Fire2") && _currentCatchFrames <= 0)
+        if (Input.GetButtonDown("Fire2") && _currentCatchFrames <= 0 && _coyoteRecord == null)
         {
             _currentCatchFrames = catchFramesTotal;
         }
         else if (Input.GetButtonDown("Fire2") && _coyoteRecord != null)
         {
             Destroy(_coyoteRecord);
+            _coyoteRecord = null;
             _currentRecordCount++;
         }
     }
@@ -84,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Record"))
+        if (other.CompareTag("Record") && other.gameObject.GetComponent<Record>().Bounces > 0)
         {
             if (_currentCatchFrames > 0)
             {
@@ -96,20 +88,26 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(CollideWithRecord(other));
             }
         }
+        else if (other.CompareTag("Enemy") || other.CompareTag("EnemyBullet"))
+        {
+            KillPlayer();
+        }
     }
 
     private IEnumerator CollideWithRecord(Collider other)
     {
-        if (_currentCatchFrames > 0)
+        _coyoteRecord = other.gameObject;
+        yield return new WaitForSeconds(recordCoyoteSeconds);
+        if (_coyoteRecord != null)
         {
-            Destroy(other.gameObject);
-            _currentRecordCount++;
-        }
-        else
-        {
-            _coyoteRecord = other.gameObject;
-            yield return new WaitForSeconds(recordCoyoteSeconds);
+            KillPlayer();
+            Destroy(_coyoteRecord);
             _coyoteRecord = null;
         }
+    }
+
+    private void KillPlayer()
+    {
+        GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
     }
 }
