@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - EnemyBullet
   - GameplayManager
+  - Conductor
   layers:
   - Default
   - TransparentFX

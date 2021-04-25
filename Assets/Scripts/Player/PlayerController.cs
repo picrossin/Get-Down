@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag("Record") && other.gameObject.GetComponent<Record>().Bounces > 0)
         {
-            if (_currentCatchFrames > 0 || other.gameObject.GetComponent<Record>().OnFloor)
+            if (_currentCatchFrames > 0)
             {
                 Destroy(other.gameObject);
                 _currentRecordCount++;
