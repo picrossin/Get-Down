@@ -18,6 +18,7 @@
           <e p="FaceTowardsCamera.cs" t="Include" />
           <e p="GameplayManager.cs" t="Include" />
           <e p="Music" t="Include">
+            <e p="AnimateToBeat.cs" t="Include" />
             <e p="Conductor.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
