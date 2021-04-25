@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1049572391251862610}
   - component: {fileID: 1049572391251862611}
   - component: {fileID: 3779408946513693641}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DJLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
