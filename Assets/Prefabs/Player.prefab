@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 12
-  throwSpeed: 8
+  throwSpeed: 6
   totalRecords: 2
   catchFramesTotal: 10
   recordCoyoteSeconds: 0.1
