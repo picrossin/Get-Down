@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1049572391251862613}
   - component: {fileID: 1049572391251862610}
   - component: {fileID: 1049572391251862611}
-  m_Layer: 0
+  - component: {fileID: 3779408946513693641}
+  m_Layer: 3
   m_Name: DJLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,3 +338,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &3779408946513693641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049572391251862608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 792b01481ac20fa46997b1b2f6b0fab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 2800000, guid: 754395577e4e0784a8ea39c77f0e4122, type: 3}
+  - {fileID: 2800000, guid: a9919569b8504d942bfa58e215c834c9, type: 3}
+  - {fileID: 2800000, guid: 745b7cbf1a90f594ca71f9ed4c2c208c, type: 3}
+  - {fileID: 2800000, guid: a43595b0ca65f6d4c92516ddf439a498, type: 3}
