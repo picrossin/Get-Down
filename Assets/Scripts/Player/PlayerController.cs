@@ -108,6 +108,6 @@ public class PlayerController : MonoBehaviour
 
     private void KillPlayer()
     {
-        print("ouch");
+        GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
     }
 }
