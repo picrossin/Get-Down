@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject sprite;
     [SerializeField] private GameObject record;
 
-    private SpriteRenderer _spriteRenderer;
-    private BoxCollider _mainCollider;
     private Transform _cursor;
 
     private Vector3 _movementInput;
@@ -25,16 +23,9 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        _spriteRenderer = sprite.GetComponent<SpriteRenderer>();
-        _mainCollider = GetComponent<BoxCollider>();
         _cursor = GameObject.FindWithTag("Cursor").transform;
 
         _currentRecordCount = totalRecords;
-
-        // Form collider for enemies and records and such
-        Bounds spriteBounds = _spriteRenderer.bounds;
-        _mainCollider.center = spriteBounds.center;
-        _mainCollider.size = new Vector3(spriteBounds.extents.x * 2, 5f, spriteBounds.extents.y * 2);
     }
 
     private void Update()
@@ -72,6 +63,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         transform.position += _movementInput / 100 * walkSpeed;
+        print(_movementInput);
 
         if (_currentCatchFrames > 0)
         {
@@ -97,6 +89,10 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(CollideWithRecord(other));
             }
         }
+        else if (other.CompareTag("Enemy"))
+        {
+            KillPlayer();
+        }
     }
 
     private IEnumerator CollideWithRecord(Collider other)
@@ -105,9 +101,14 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(recordCoyoteSeconds);
         if (_coyoteRecord != null)
         {
-            print("ouch");
+            KillPlayer();
             Destroy(_coyoteRecord);
             _coyoteRecord = null;
         }
+    }
+
+    private void KillPlayer()
+    {
+        print("ouch");
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Cursor
   - Record
+  - Enemy
   layers:
   - Default
   - TransparentFX
