@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(CollideWithRecord(other));
             }
         }
-        else if (other.CompareTag("Enemy"))
+        else if (other.CompareTag("Enemy") || other.CompareTag("EnemyBullet"))
         {
             KillPlayer();
         }

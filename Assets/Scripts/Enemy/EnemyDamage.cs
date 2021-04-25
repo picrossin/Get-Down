@@ -35,8 +35,8 @@ public class EnemyDamage : MonoBehaviour
         }
         else
         {
+            GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().EnemyKilled();
             Destroy(gameObject);
         }
-        
     }
 }

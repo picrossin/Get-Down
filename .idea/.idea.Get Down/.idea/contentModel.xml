@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Elevator.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="BulletDetectRecords.cs" t="Include" />
             <e p="ChaseEnemy.cs" t="Include" />
@@ -15,6 +16,7 @@
             <e p="Shoot.cs" t="Include" />
           </e>
           <e p="FaceTowardsCamera.cs" t="Include" />
+          <e p="GameplayManager.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="PlayerController.cs" t="Include" />
             <e p="Pointer.cs" t="Include" />
