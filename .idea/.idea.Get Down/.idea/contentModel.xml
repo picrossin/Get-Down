@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AnimateDJ.cs" t="Include" />
+          <e p="DestroyAfterSound.cs" t="Include" />
           <e p="DiscoTiles.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
           <e p="Enemy" t="Include">

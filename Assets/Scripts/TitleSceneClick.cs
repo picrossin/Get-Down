@@ -8,6 +8,7 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
     [SerializeField] private RectTransform image;
     [SerializeField] private GameObject fallingImage;
     [SerializeField] private Animator transitionAnimation;
+    [SerializeField] private GameObject startGameSound;
     
     private Vector3 _initialPosition;
     private bool _inBox;
@@ -42,6 +43,7 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         fallingImage.SetActive(true);
         transitionAnimation.SetTrigger("FinishLevel");
+        Instantiate(startGameSound);
         yield return new WaitForSeconds(1f);
         GameObject.FindGameObjectWithTag("Conductor").GetComponent<Conductor>().StopTrack();
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);

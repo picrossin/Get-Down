@@ -324,7 +324,6 @@ MonoBehaviour:
   beat:
     m_PersistentCalls:
       m_Calls: []
-  _songPositionInBeats: 0
 --- !u!82 &713366438
 AudioSource:
   m_ObjectHideFlags: 0
@@ -562,6 +561,8 @@ MonoBehaviour:
   image: {fileID: 1149856356}
   fallingImage: {fileID: 4111213049546703467}
   transitionAnimation: {fileID: 4111213049706822126}
+  startGameSound: {fileID: 5501855721498772956, guid: 62bf2bac12bc8cf4db36e3006b662666,
+    type: 3}
 --- !u!1 &1891177590
 GameObject:
   m_ObjectHideFlags: 0
