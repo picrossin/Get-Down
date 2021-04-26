@@ -156,6 +156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 4445057636095572123}
+  xSizeMultiply: 1
+  ySizeMultiply: 1
 --- !u!114 &4445057635514500454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalHealth: 2
   knockbackForce: 75
-  invincibilityTimeInSeconds: 0.25
+  invincibilityTimeInSeconds: 0.2
   onDestroyObject: {fileID: 0}
   enemyHurt: {fileID: 1181343080271968745, guid: 484921f796beceb4eadbea65b500189b,
     type: 3}
@@ -193,6 +195,7 @@ MonoBehaviour:
   enemyAnimation: {fileID: 565918687}
   spitSound: {fileID: 1181343080271968745, guid: 9505e5e12c1b3d340a4f91d60a35f913,
     type: 3}
+  waitSeconds: 1
 --- !u!1 &4445057636095572125
 GameObject:
   m_ObjectHideFlags: 0

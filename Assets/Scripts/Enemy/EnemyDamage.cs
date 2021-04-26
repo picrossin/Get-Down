@@ -13,6 +13,7 @@ public class EnemyDamage : MonoBehaviour
     private int _currentHealth;
     private Rigidbody _rigidbody;
     private bool _invincible;
+    private GameObject _inflictingRecord;
     
     private void Start()
     {
@@ -24,13 +25,13 @@ public class EnemyDamage : MonoBehaviour
     {
         if (other.CompareTag("Record"))
         {
-            TakeDamage(other.transform.position);
+            TakeDamage(other.transform.position, other.gameObject);
         }
     }
 
-    private void TakeDamage(Vector3 recordPosition)
+    private void TakeDamage(Vector3 recordPosition, GameObject record)
     {
-        if (!_invincible)
+        if (!_invincible || record.GetInstanceID() != _inflictingRecord.GetInstanceID())
         {
             _currentHealth--;
             if (_currentHealth > 0)
@@ -43,6 +44,8 @@ public class EnemyDamage : MonoBehaviour
 
                 StartCoroutine(InvincibilityFrame());
                 Instantiate(enemyHurt);
+
+                _inflictingRecord = record;
             }
             else
             {
