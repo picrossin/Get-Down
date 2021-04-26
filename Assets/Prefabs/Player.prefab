@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3870092683571292713}
   - component: {fileID: 3870092683571292714}
   - component: {fileID: 3870092683571292715}
+  - component: {fileID: 152886423}
   m_Layer: 0
   m_Name: Player Sprite
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3870092683571292712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.5, y: 6.5, z: 6.5}
   m_Children: []
   m_Father: {fileID: 3870092685649322275}
   m_RootOrder: 0
@@ -84,7 +85,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: abe23343ec59f9745a617d54be4c39f0, type: 3}
+  m_Sprite: {fileID: -1623844195149787560, guid: 1afb63ffe34a3c74598d0ddc96c07dd8,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,6 +97,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &152886423
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3870092683571292712}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f096f3c8103c808479248a422309a858, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3870092683920270267
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,8 +231,16 @@ MonoBehaviour:
   totalRecords: 2
   catchFramesTotal: 10
   recordCoyoteSeconds: 0.1
-  sprite: {fileID: 3870092683571292712}
   record: {fileID: 6772630126639194723, guid: 954ec375e73534348afc375f881079bb, type: 3}
+  animator: {fileID: 152886423}
+  spriteRenderer: {fileID: 3870092683571292715}
+  walkAnimSpeed: 2
+  throwUp: {fileID: 21300000, guid: b422699da1f44ba44bcfecc419894b68, type: 3}
+  throwDown: {fileID: 21300000, guid: e1bfcd48010c53743b6e16ca68fe266f, type: 3}
+  throwLeft: {fileID: 21300000, guid: 7c3621b514969294692818370cfb6372, type: 3}
+  throwRight: {fileID: 21300000, guid: c2623d094abc72645ab47d8fe2ab911d, type: 3}
+  hurtObject: {fileID: 3895684944506231568, guid: 9f3c57885536f8d4fbd13b482db543bb,
+    type: 3}
 --- !u!65 &3870092685649322271
 BoxCollider:
   m_ObjectHideFlags: 0

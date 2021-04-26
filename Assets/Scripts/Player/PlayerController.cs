@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,15 +12,32 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float recordCoyoteSeconds = 0.1f;
     
     [Header("Dependencies")] 
-    [SerializeField] private GameObject sprite;
     [SerializeField] private GameObject record;
-
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private float walkAnimSpeed = 0.5f;
+    [SerializeField] private Sprite throwUp;
+    [SerializeField] private Sprite throwDown;
+    [SerializeField] private Sprite throwLeft;
+    [SerializeField] private Sprite throwRight;
+    [SerializeField] private GameObject hurtObject;
+    
+    private enum Direction
+    {
+        Up,
+        Down,
+        Left,
+        Right
+    }
+    
     private Transform _cursor;
 
     private Vector3 _movementInput;
     private int _currentRecordCount;
     private int _currentCatchFrames;
     private GameObject _coyoteRecord;
+    private Direction _currentDirection = Direction.Down;
+    private bool _throwingAnim;
 
     private void Start()
     {
@@ -46,6 +64,8 @@ public class PlayerController : MonoBehaviour
                 Quaternion.identity);
             recordInstance.GetComponent<Rigidbody>().AddForce(throwDir * throwSpeed * 100);
             _currentRecordCount--;
+
+            StartCoroutine(PlayThrowAnim());
         }
 
         if (Input.GetButtonDown("Fire2") && _currentCatchFrames <= 0 && _coyoteRecord == null)
@@ -57,6 +77,59 @@ public class PlayerController : MonoBehaviour
             Destroy(_coyoteRecord);
             _coyoteRecord = null;
             _currentRecordCount++;
+        }
+
+        // Update direction and animate
+        if (!_throwingAnim)
+        {
+            float deadZone = 0.15f;
+            bool switchedDir = false;
+
+            if (movementInputNormalized.y > 1 - deadZone)
+            {
+                _currentDirection = Direction.Up;
+                switchedDir = true;
+            }
+            else if (movementInputNormalized.y < deadZone - 1)
+            {
+                _currentDirection = Direction.Down;
+                switchedDir = true;
+
+            }
+            else if (movementInputNormalized.x > 1 - deadZone)
+            {
+                _currentDirection = Direction.Right;
+                switchedDir = true;
+            }
+            else if (movementInputNormalized.x < deadZone - 1)
+            {
+                _currentDirection = Direction.Left;
+                switchedDir = true;
+            }
+
+            if (switchedDir)
+            {
+                string triggerName = "Down";
+                switch (_currentDirection)
+                {
+                    case Direction.Up:
+                        triggerName = "Up";
+                        break;
+                    case Direction.Down:
+                        triggerName = "Down";
+                        break;
+                    case Direction.Left:
+                        triggerName = "Left";
+                        break;
+                    case Direction.Right:
+                        triggerName = "Right";
+                        break;
+                }
+            
+                animator.SetTrigger(triggerName);
+            }
+
+            animator.speed = movementInputNormalized == Vector2.zero ? 0 : walkAnimSpeed;
         }
     }
 
@@ -106,8 +179,39 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private IEnumerator PlayThrowAnim()
+    {
+        _throwingAnim = true;
+        animator.enabled = false;
+
+        animator.speed = 0;
+        
+        switch (_currentDirection)
+        {
+            case Direction.Up:
+                spriteRenderer.sprite = throwUp;
+                break;
+            case Direction.Down:
+                spriteRenderer.sprite = throwDown;
+                break;
+            case Direction.Left:
+                spriteRenderer.sprite = throwLeft;
+                break;
+            case Direction.Right:
+                spriteRenderer.sprite = throwRight;
+                break;
+        }
+        
+        yield return new WaitForSeconds(0.2f);
+
+        animator.enabled = true;
+        _throwingAnim = false;
+    }
+
     private void KillPlayer()
     {
         GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
+        Instantiate(hurtObject, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

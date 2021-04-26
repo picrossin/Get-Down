@@ -12,11 +12,13 @@
           <e p="Enemy" t="Include">
             <e p="BulletDetectRecords.cs" t="Include" />
             <e p="ChaseEnemy.cs" t="Include" />
+            <e p="EnemyAnimation.cs" t="Include" />
             <e p="EnemyBullet.cs" t="Include" />
             <e p="EnemyDamage.cs" t="Include" />
             <e p="Shoot.cs" t="Include" />
           </e>
           <e p="FaceTowardsCamera.cs" t="Include" />
+          <e p="FlyInRandomDir.cs" t="Include" />
           <e p="GameplayManager.cs" t="Include" />
           <e p="Music" t="Include">
             <e p="AnimateToBeat.cs" t="Include" />
