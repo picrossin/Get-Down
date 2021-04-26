@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  sightRange: 9
+  sightRange: 12
 --- !u!114 &7664662152908620502
 MonoBehaviour:
   m_ObjectHideFlags: 0

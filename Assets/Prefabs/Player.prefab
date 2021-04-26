@@ -207,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 3870092685649322274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 3870092683571292713}
   - {fileID: 3870092683920270260}
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f35321c6a529e0a448e957d03b80d199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 12
-  throwSpeed: 6
-  totalRecords: 2
+  walkSpeed: 9
+  throwSpeed: 5
+  totalRecords: 3
   catchFramesTotal: 10
   recordCoyoteSeconds: 0.1
   record: {fileID: 6772630126639194723, guid: 954ec375e73534348afc375f881079bb, type: 3}
@@ -283,7 +283,7 @@ FixedJoint:
   m_BreakTorque: Infinity
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
-  m_MassScale: 1
+  m_MassScale: 100
   m_ConnectedMassScale: 1
 --- !u!114 &3870092685649322264
 MonoBehaviour:
