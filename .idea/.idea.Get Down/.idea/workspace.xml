@@ -21,18 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangerine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangerine.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangering_firing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangering_firing.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_dancing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_dancing.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_firing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_firing.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bullet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bullet.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_close.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/Post Processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/Post Processing Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +70,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/AnimateToBeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
@@ -85,6 +77,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyInRandomDir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
       </list>
     </option>
   </component>

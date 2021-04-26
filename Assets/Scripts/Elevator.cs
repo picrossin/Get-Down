@@ -1,28 +1,31 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Elevator : MonoBehaviour
 {
-    [SerializeField] private GameObject mesh;
-
+    [SerializeField] private Animator animator;
+    
     private bool open;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && open)
         {
-            GotoNextLevel();
+            Destroy(other.gameObject);
+            StartCoroutine(GotoNextLevel());
         }
     }
 
     public void Open()
     {
-        mesh.SetActive(true);
+        animator.SetTrigger("Open");
         open = true;
     }
 
-    private void GotoNextLevel()
+    private IEnumerator GotoNextLevel()
     {
+        animator.SetTrigger("Close");
+        yield return new WaitForSeconds(0.5f);
         GameObject.FindGameObjectWithTag("TransitionManager").GetComponent<TransitionManager>().PlayElevatorTransition();
     }
 }
