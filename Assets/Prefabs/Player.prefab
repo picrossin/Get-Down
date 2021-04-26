@@ -207,7 +207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 9
   throwSpeed: 5
-  totalRecords: 2
+  totalRecords: 3
   catchFramesTotal: 10
   recordCoyoteSeconds: 0.1
   sprite: {fileID: 3870092683571292712}
@@ -254,7 +254,7 @@ FixedJoint:
   m_BreakTorque: Infinity
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
-  m_MassScale: 1
+  m_MassScale: 100
   m_ConnectedMassScale: 1
 --- !u!114 &3870092685649322264
 MonoBehaviour:
