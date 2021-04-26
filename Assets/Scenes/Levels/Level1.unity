@@ -14333,14 +14333,9 @@ PrefabInstance:
       objectReference: {fileID: 7043229}
     - target: {fileID: 7036719869993321796, guid: c66f7f65ce17aab43a5f8c0403e9c8c1,
         type: 3}
-      propertyPath: bpms.Array.data[0]
-      value: 108
+      propertyPath: startTrackThisLevel
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7036719869993321796, guid: c66f7f65ce17aab43a5f8c0403e9c8c1,
-        type: 3}
-      propertyPath: songs.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 51023ea7451d6584fab5e12a51c4e6ca, type: 3}
     - target: {fileID: 7036719869993321798, guid: c66f7f65ce17aab43a5f8c0403e9c8c1,
         type: 3}
       propertyPath: m_Name

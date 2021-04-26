@@ -12,6 +12,7 @@ public class Conductor : MonoBehaviour
     public bool CurrentTrackStarted => _currentTrackStarted;
 
     private float _beatInMeasure;
+    public float BeatInMeasure => _beatInMeasure;
     
     private float songBpm;
 
@@ -56,6 +57,12 @@ public class Conductor : MonoBehaviour
             beat.Invoke();
             _lastBeat += _secPerBeat;
         }
+    }
+
+    public void StopTrack()
+    {
+        _currentTrackStarted = false;
+        musicSource.Stop();
     }
     
     public void StartTrack(AudioClip clip, float bpm)

@@ -56264,6 +56264,16 @@ PrefabInstance:
       propertyPath: elevator
       value: 
       objectReference: {fileID: 1630400159}
+    - target: {fileID: 7036719869993321796, guid: c66f7f65ce17aab43a5f8c0403e9c8c1,
+        type: 3}
+      propertyPath: currentTrack
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036719869993321796, guid: c66f7f65ce17aab43a5f8c0403e9c8c1,
+        type: 3}
+      propertyPath: startTrackThisLevel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7036719869993321798, guid: c66f7f65ce17aab43a5f8c0403e9c8c1,
         type: 3}
       propertyPath: m_Name
@@ -78090,6 +78100,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3870092685649322268, guid: 234df36093888fa4abcdef98709e6e0e,
+        type: 3}
+      propertyPath: totalRecords
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3870092685649322268, guid: 234df36093888fa4abcdef98709e6e0e,
         type: 3}
       propertyPath: recordStackImage

@@ -45,5 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elevator: {fileID: 0}
   songs:
-  - {fileID: 8300000, guid: a556a023a50a578419409850fa1720de, type: 3}
-  bpms: 73000000
+  - {fileID: 8300000, guid: bbf514678f390e845907a069e246c4cc, type: 3}
+  - {fileID: 8300000, guid: 60d74ec0dc00519468f1c509cd0c89ef, type: 3}
+  - {fileID: 8300000, guid: 3d00c85e260f69643937bbd2dc971bf9, type: 3}
+  - {fileID: 8300000, guid: 1933d1349d3dccd46a181197195f325f, type: 3}
+  bpms: 730000006c0000007d000000dc000000
+  startTrackThisLevel: 0
+  currentTrack: 0

@@ -1,11 +1,18 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TextRevealer : MonoBehaviour
 {
     [SerializeField] private float secondsPerLetter = 0.05f;
-
+    [SerializeField] private float secondsBetweenLetters = 0.025f;
+    [SerializeField] private Image face;
+    [SerializeField] private Sprite face1;
+    [SerializeField] private Sprite face2;
+    [SerializeField] private Animator transitionAnimator;
+    
     [SerializeField] private bool animateRecord;
     [SerializeField] private GameObject sleeve;
     [SerializeField] private GameObject vinyl;
@@ -35,12 +42,18 @@ public class TextRevealer : MonoBehaviour
             {
                 StartCoroutine(RevealRecord());
             }
+            else
+            {
+                StartCoroutine(NextLevel());
+            }
         }
     }
 
     private IEnumerator BeginReveal()
     {
         _textDone = false;
+        
+        yield return new WaitForSeconds(2f);
         
         foreach (char character in _textToReveal)
         {
@@ -55,10 +68,17 @@ public class TextRevealer : MonoBehaviour
             {
                 // play sound
             }
+
+            face.sprite = face2;
             
             yield return new WaitForSeconds(secondsPerLetter);
+
+            face.sprite = face1;
+            
+            yield return new WaitForSeconds(secondsBetweenLetters);
         }
 
+        face.sprite = face1;
         _uiText.text = _textToReveal;
         _textDone = true;
     }
@@ -69,5 +89,13 @@ public class TextRevealer : MonoBehaviour
         yield return new WaitForSeconds(1.2f);
         vinyl.SetActive(true);
         yield return new WaitForSeconds(1.5f);
+        StartCoroutine(NextLevel());
+    }
+
+    private IEnumerator NextLevel()
+    {
+        transitionAnimator.SetTrigger("FinishLevel");
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

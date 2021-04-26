@@ -26,7 +26,6 @@ public class SpotlightManager : MonoBehaviour
     private LightAnimations[] _animCycle;
     private int _animCycleIndex;
     
-    
     private void Start()
     {
         topRight.intensity = 0;
@@ -57,6 +56,7 @@ public class SpotlightManager : MonoBehaviour
             _initialized = true;
             _conductor = GameObject.FindGameObjectWithTag("Conductor").GetComponent<Conductor>();
             _conductor.beat.AddListener(Flash);
+            _measureBeat = (int) _conductor.BeatInMeasure;
         }
     }
 

@@ -30639,6 +30639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elevator
       objectReference: {fileID: 0}
+    - target: {fileID: 6104714509170660750, guid: 9118061d2ddf8c84ab51e82c8c457008,
+        type: 3}
+      propertyPath: stopTrackThisLevel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6104714509170660751, guid: 9118061d2ddf8c84ab51e82c8c457008,
         type: 3}
       propertyPath: m_RootOrder

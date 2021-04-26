@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameplayManager : MonoBehaviour
 {
@@ -8,11 +7,11 @@ public class GameplayManager : MonoBehaviour
 
     [SerializeField] private AudioClip[] songs;
     [SerializeField] private int[] bpms;
+    [SerializeField] private int currentTrack = 0;
 
     private int _enemyCount = Int32.MaxValue;
     private Conductor _conductor;
     private bool _trackStarted;
-    private int _currentTrack = 0;
 
     private void Start()
     {
@@ -34,7 +33,7 @@ public class GameplayManager : MonoBehaviour
         if (!_trackStarted && !_conductor.CurrentTrackStarted)
         {
             _trackStarted = true;
-            _conductor.StartTrack(songs[_currentTrack], bpms[_currentTrack]);
+            _conductor.StartTrack(songs[currentTrack], bpms[currentTrack]);
         }
     }
 
