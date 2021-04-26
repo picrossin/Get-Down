@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class TransitionManager : MonoBehaviour
 {
+    [SerializeField] private GameObject elevatorMusic;
+    [SerializeField] private float currentVol;
+    
     private GameObject _ui;
 
     private bool _playElevator = true;
@@ -29,6 +32,7 @@ public class TransitionManager : MonoBehaviour
             {
                 if (_playElevator)
                 {
+                    StartCoroutine(MusicVolUp());
                     _ui.GetComponent<UIManager>().ElevatorTransition.SetActive(true);
                 }
                 else
@@ -50,6 +54,8 @@ public class TransitionManager : MonoBehaviour
     public void PlayElevatorTransition()
     {
         _playElevator = true;
+        StartCoroutine(MusicVolDown());
+        Instantiate(elevatorMusic);
         _ui.GetComponent<UIManager>().ElevatorTransition.SetActive(true);
         _ui.GetComponent<UIManager>().ElevatorTransition.GetComponent<Animator>().SetTrigger("FinishLevel");
         StartCoroutine(WaitToLoadScene(SceneManager.GetActiveScene().buildIndex + 1, 4f));
@@ -59,5 +65,32 @@ public class TransitionManager : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadSceneAsync(buildIndex);
+    }
+
+    private IEnumerator MusicVolDown()
+    {
+        Conductor conductor = GameObject.FindGameObjectWithTag("Conductor").GetComponent<Conductor>();
+        AudioSource conductorSource = conductor.gameObject.GetComponent<AudioSource>();
+        currentVol = conductorSource.volume;
+
+        while (conductorSource.volume > 0.1f)
+        {
+            conductorSource.volume -= 0.02f;
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
+    
+    private IEnumerator MusicVolUp()
+    {
+        Conductor conductor = GameObject.FindGameObjectWithTag("Conductor").GetComponent<Conductor>();
+        AudioSource conductorSource = conductor.gameObject.GetComponent<AudioSource>();
+
+        while (conductorSource.volume < currentVol)
+        {
+            conductorSource.volume += 0.02f;
+            yield return new WaitForSeconds(0.01f);
+        }
+
+        conductorSource.volume = currentVol;
     }
 }

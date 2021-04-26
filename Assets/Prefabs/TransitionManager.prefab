@@ -43,3 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544e3a72701c0e64883937348005e812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  elevatorMusic: {fileID: 1181343080271968745, guid: f78685016c28e32429e60c5b67e9dfab,
+    type: 3}
+  currentVol: 0.34

@@ -66690,26 +66690,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1313700171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 938648640, guid: 8037d453f46fac64d84fff8db86b423f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1578187972}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1313700176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313700171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba7cadc49bddc447a024c50ed8a7482, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fallingImage: {fileID: 1432245213}
-  elevatorImage: {fileID: 1383800195}
 --- !u!1001 &1315409379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101367,6 +101347,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2109993595}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2111511259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7108866350014571534, guid: 8037d453f46fac64d84fff8db86b423f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1578187972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2111511265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111511259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba7cadc49bddc447a024c50ed8a7482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallingImage: {fileID: 1432245213}
+  elevatorImage: {fileID: 1383800195}
 --- !u!43 &2113748619
 Mesh:
   m_ObjectHideFlags: 0

@@ -285,6 +285,8 @@ MonoBehaviour:
     type: 3}
   selectSound: {fileID: 5501855721498772956, guid: db963c58a2eb93c4b8af76b814bd2f45,
     type: 3}
+  recordGetSound: {fileID: 1181343080271968745, guid: ad4631200e14b2d4ea97da21d0d4f3f9,
+    type: 3}
 --- !u!1 &157713947
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ public class FirstLevelSpriteSwap : MonoBehaviour
 
     private IEnumerator SwapSprites()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(4f);
         fallingImage.SetActive(false);
         elevatorImage.SetActive(true);
     }

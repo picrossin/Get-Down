@@ -122,6 +122,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalHealth: 1
+  knockbackForce: 50
+  invincibilityTimeInSeconds: 0.25
+  onDestroyObject: {fileID: 0}
+  enemyHurt: {fileID: 1181343080271968745, guid: 484921f796beceb4eadbea65b500189b,
+    type: 3}
+  enemyDie: {fileID: 1181343080271968745, guid: 58059b79e070ffc4a9fcf9955f5e7c54,
+    type: 3}
 --- !u!1 &223989805651218006
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,3 +323,5 @@ MonoBehaviour:
   stateNameAnim2: Flower Pow
   controller1: {fileID: 9100000, guid: b984c7633b43d93418bccaf927a37e73, type: 2}
   controller2: {fileID: 9100000, guid: bdfc9688f9ee5b449be39d6e4e013e9d, type: 2}
+  shootFace1: {fileID: 0}
+  shootFace2: {fileID: 0}

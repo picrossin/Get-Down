@@ -21,18 +21,26 @@
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Elevator Music.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Elevator Music.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SFX Players/Start Game Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SFX Players/Start Game Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stationlarries/Stationlarry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stationlarries/Stationlarry.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TransitionManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TransitionManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreBoss Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PreBoss Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Second Record Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Second Record Cutscene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Third Record Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Third Record Cutscene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,26 +88,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/AnimateToBeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyInRandomDir.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateDJ.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleBGAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +155,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="1087000" />
+      <workItem from="1619451562768" duration="6025000" />
     </task>
     <servers />
   </component>
@@ -244,14 +252,14 @@
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
     <state x="2012" y="-243" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619278074864" />
-    <state x="2618" y="-125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619366122761">
+    <state x="2618" y="-125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619453551022">
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
-    <state x="2618" y="-125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619366122761" />
-    <state x="0" y="0" width="1893" height="1027" maximized="true" key="dock-window-1" timestamp="1619373482148">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2618" y="-125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619453551022" />
+    <state x="1405" y="-350" width="1893" height="935" maximized="true" key="dock-window-1" timestamp="1619457820415">
+      <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1893" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619373482148" />
+    <state x="1405" y="-350" width="1893" height="935" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619457820415" />
     <state x="43" y="0" width="1893" height="1027" key="dock-window-2" timestamp="1619446730338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

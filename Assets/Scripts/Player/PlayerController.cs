@@ -21,7 +21,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Sprite throwLeft;
     [SerializeField] private Sprite throwRight;
     [SerializeField] private GameObject hurtObject;
-
+    [SerializeField] private GameObject throwRecordSound;
+    [SerializeField] private GameObject catchRecordSound;
+    [SerializeField] private GameObject dieSound;
+    [SerializeField] private GameObject footstep;
+    
     [SerializeField] private Image recordStackImage;
     [SerializeField] private Sprite stack1;
     [SerializeField] private Sprite stack2;
@@ -43,6 +47,8 @@ public class PlayerController : MonoBehaviour
     private GameObject _coyoteRecord;
     private Direction _currentDirection = Direction.Down;
     private bool _throwingAnim;
+    private Conductor _conductor;
+    private bool _initialized;
 
     private void Start()
     {
@@ -53,6 +59,14 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        // Get conductor for footsteps
+        if (!_initialized)
+        {
+            _initialized = true;
+            _conductor = GameObject.FindGameObjectWithTag("Conductor").GetComponent<Conductor>();
+            _conductor.beat.AddListener(PlayFootstep);
+        }
+        
         // Get input and move
         Vector2 movementInputNormalized =
             new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
@@ -70,6 +84,8 @@ public class PlayerController : MonoBehaviour
             recordInstance.GetComponent<Rigidbody>().AddForce(throwDir * throwSpeed * 100);
             recordInstance.GetComponent<Record>().SetRecordTexture(_currentRecordCount);
             _currentRecordCount--;
+
+            Instantiate(throwRecordSound);
             
             StartCoroutine(PlayThrowAnim());
         }
@@ -98,6 +114,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetButtonDown("Fire2") && _coyoteRecord != null)
         {
+            Instantiate(catchRecordSound);
             Destroy(_coyoteRecord);
             _coyoteRecord = null;
             _currentRecordCount++;
@@ -177,6 +194,7 @@ public class PlayerController : MonoBehaviour
         {
             if (_currentCatchFrames > 0)
             {
+                Instantiate(catchRecordSound);
                 Destroy(other.gameObject);
                 _currentRecordCount++;
             }
@@ -234,8 +252,18 @@ public class PlayerController : MonoBehaviour
 
     private void KillPlayer()
     {
+        Instantiate(dieSound);
         GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
         Instantiate(hurtObject, transform.position, Quaternion.identity);
         Destroy(gameObject);
+    }
+
+    private void PlayFootstep()
+    {
+        if (Mathf.Abs(_movementInput.x) > 0.1f || Mathf.Abs(_movementInput.z) > 0.1f)
+        {
+            GameObject footstepObj = Instantiate(footstep, transform.position, Quaternion.identity);
+            footstepObj.GetComponent<AudioSource>().PlayOneShot(footstepObj.GetComponent<AudioSource>().clip, 2f);
+        }
     }
 }

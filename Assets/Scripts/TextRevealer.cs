@@ -18,6 +18,7 @@ public class TextRevealer : MonoBehaviour
     [SerializeField] private GameObject vinyl;
     [SerializeField] private GameObject voiceSound;
     [SerializeField] private GameObject selectSound;
+    [SerializeField] private GameObject recordGetSound;
     
     private TextMeshProUGUI _uiText;
     private string _textToReveal;
@@ -91,6 +92,7 @@ public class TextRevealer : MonoBehaviour
     private IEnumerator RevealRecord()
     {
         sleeve.SetActive(true);
+        Instantiate(recordGetSound);
         yield return new WaitForSeconds(1.2f);
         vinyl.SetActive(true);
         yield return new WaitForSeconds(1.5f);

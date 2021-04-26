@@ -133,6 +133,8 @@ MonoBehaviour:
   stateNameAnim2: Roley Bossa
   controller1: {fileID: 9100000, guid: c2ea1b66250f4c940969481e3215efb7, type: 2}
   controller2: {fileID: 9100000, guid: 76f8b729fb9c4204c8478ac1de6ccc24, type: 2}
+  shootFace1: {fileID: 0}
+  shootFace2: {fileID: 0}
 --- !u!1 &7664662152908620511
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +257,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalHealth: 2
+  knockbackForce: 50
+  invincibilityTimeInSeconds: 0.25
+  onDestroyObject: {fileID: 0}
+  enemyHurt: {fileID: 1181343080271968745, guid: 484921f796beceb4eadbea65b500189b,
+    type: 3}
+  enemyDie: {fileID: 1181343080271968745, guid: 58059b79e070ffc4a9fcf9955f5e7c54,
+    type: 3}
 --- !u!1 &7664662153029520814
 GameObject:
   m_ObjectHideFlags: 0

@@ -241,6 +241,14 @@ MonoBehaviour:
   throwRight: {fileID: 21300000, guid: c2623d094abc72645ab47d8fe2ab911d, type: 3}
   hurtObject: {fileID: 3895684944506231568, guid: 9f3c57885536f8d4fbd13b482db543bb,
     type: 3}
+  throwRecordSound: {fileID: 1181343080271968745, guid: 696a987ffc1551d40b58362a90f38186,
+    type: 3}
+  catchRecordSound: {fileID: 1181343080271968745, guid: e8231708b2befb4469b82a246f070c41,
+    type: 3}
+  dieSound: {fileID: 1181343080271968745, guid: c9d47cf2cb9b8c0459c8ed184f416613,
+    type: 3}
+  footstep: {fileID: 1181343080271968745, guid: ce8131bf9ee83264fa3ceb0fd5ba2e90,
+    type: 3}
   recordStackImage: {fileID: 0}
   stack1: {fileID: -4457650998176762566, guid: d41521d0564b91948ac43d2ca176b2d0, type: 3}
   stack2: {fileID: -2125248036894851506, guid: d41521d0564b91948ac43d2ca176b2d0, type: 3}

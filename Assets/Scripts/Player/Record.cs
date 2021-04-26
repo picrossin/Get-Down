@@ -8,6 +8,7 @@ public class Record : MonoBehaviour
     [SerializeField] private Texture2D record2;
     [SerializeField] private Texture2D record3;
     [SerializeField] private MeshRenderer meshRenderer;
+    [SerializeField] private GameObject pingSound;
     
     private int _bounces = 0;
     public int Bounces => _bounces;
@@ -17,6 +18,7 @@ public class Record : MonoBehaviour
         if (other.gameObject.layer == 3)
         {
             _bounces++;
+            Instantiate(pingSound);
         }
     }
 

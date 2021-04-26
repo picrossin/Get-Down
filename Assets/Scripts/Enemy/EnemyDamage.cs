@@ -7,6 +7,8 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] private float knockbackForce = 50f;
     [SerializeField] private float invincibilityTimeInSeconds = 0.25f;
     [SerializeField] private GameObject onDestroyObject;
+    [SerializeField] private GameObject enemyHurt;
+    [SerializeField] private GameObject enemyDie;
     
     private int _currentHealth;
     private Rigidbody _rigidbody;
@@ -40,9 +42,12 @@ public class EnemyDamage : MonoBehaviour
                 _rigidbody.AddForce(-knockbackDir * knockbackForce, ForceMode.Impulse);
 
                 StartCoroutine(InvincibilityFrame());
+                Instantiate(enemyHurt);
             }
             else
             {
+                Instantiate(enemyDie);
+                
                 GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().EnemyKilled();
                 if (onDestroyObject != null)
                 {

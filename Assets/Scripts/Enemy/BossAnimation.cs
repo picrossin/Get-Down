@@ -3,6 +3,7 @@ using UnityEngine;
 public class BossAnimation : MonoBehaviour
 {
     [SerializeField] private string animName = "Chomp";
+    [SerializeField] private GameObject chompSound;
     
     private Conductor _conductor;
     private Animator _animator;
@@ -29,6 +30,9 @@ public class BossAnimation : MonoBehaviour
     {
         offBeat = !offBeat;
         if (_animator.enabled && offBeat)
+        {
             _animator.Play(animName, 0, 0.0f);
+            Instantiate(chompSound, transform.position, Quaternion.identity);
+        }
     }
 }
