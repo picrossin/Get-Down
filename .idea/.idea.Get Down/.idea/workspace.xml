@@ -20,281 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stationlarries/Stationlarry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stationlarries/Stationlarry.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangerine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangerine.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangering_firing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bothersome_tangering_firing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/bullet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_dancing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_dancing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_firing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/red-shooter/hothead_firing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bullet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bullet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/glasses.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/glasses.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_hurt.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_hurt.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_throws.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_throws.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_down.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_down.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_left.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_left.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_right.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_right.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_up.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Character/vinyl_throw_man_walk_up.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/banana_fool.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/banana_fool.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/bear_hippo_child.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/bear_hippo_child.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/blue_animal_chungus.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/blue_animal_chungus.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/blue_ball_boy.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/blue_ball_boy.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/blue_crungus.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/blue_crungus.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/bothersome_tangerine.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/bothersome_tangerine.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/bothersome_tangering_firing.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/bothersome_tangering_firing.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dead_banana_fool.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dead_blue_animal_chungus.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dead_bothersome_tangerine.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dead_flower_pow.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dead_roley_blue_bossa.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dude_bro.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/dude_bro.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/flower_pow.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/flower_pow.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/gray_alien.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/gray_alien.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/gray_alien_2.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/gray_alien_2.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/green_alien.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/green_alien.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/dead_hothead.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/hothead.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/hothead.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/hothead_bullet.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/hothead_bullet.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/hothead_firing.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/hothead/hothead_firing.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/jellyfish.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/jellyfish.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/purple_demon_guy.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/purple_demon_guy.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/red_demon_guy.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/red_demon_guy.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/roley_blue_bossa.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/roley_blue_bossa.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/test_gremlin_1.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Critters/test_gremlin_1.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/AlbumCoverSoundcloud.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/ZaBoss.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/ZaBoss.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/capital_letters_test.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/capital_letters_test.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/crosshair.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/crosshair.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/deep_dish.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/deep_dish.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/dj.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/dj.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/dj_portrait.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/dying_ZaBoss.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/elevator.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/lowercase_letters_test.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/lowercase_letters_test.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/maybe_itch_display_image.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/mouse.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/mouse.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/start_button.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/start_button.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/text_box.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/text_box_just_box.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/title.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Misc/title.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_stack.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_stack.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v1.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v1.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v2.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v2.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v3.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v3.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v4.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Aseprite Files/Records/record_v4.aseprite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/ZaBoss.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/ZaBoss.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/blue_animal_chungus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/blue_animal_chungus.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/bothersome_tangerine.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/bothersome_tangerine.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/dj.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/dj.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/dying_ZaBoss.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/dying_ZaBoss.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/flower_pow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/flower_pow.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/hothead.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/hothead.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/record_v2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/record_v2.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/record_v3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/record_v3.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/record_v4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/record_v4.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/roley_blue_bossa.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/roley_blue_bossa.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_spin.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_spin.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_walk_left.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_walk_left.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_walk_right.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_walk_right.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_walk_up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gifs/vinyl_throw_man_walk_up.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/banana_fool.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/banana_fool.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/banana_fool.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/banana_fool.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/bear_hippo_child.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/bear_hippo_child.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/blue_animal_chungus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/blue_animal_chungus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/blue_ball_boy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/blue_ball_boy.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/bothersome_tangerine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/bothersome_tangerine.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/deep_dish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/deep_dish.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/dude_bro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/dude_bro.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/flower_pow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/flower_pow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/gray_alien.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/gray_alien.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/gray_alien_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/gray_alien_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/green_alien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/green_alien.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/jellyfish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/jellyfish.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/purple_demon_guy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/purple_demon_guy.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/record_v1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/record_v1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/record_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/record_v2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/red_demon_guy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/red_demon_guy.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/test_gremlin_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/test_gremlin_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/vinyl_throw_man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/vinyl_throw_man.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/vinyl_throw_man_walk_down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Temp_pngs/vinyl_throw_man_walk_down.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/glasses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/glasses.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_hurt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_down.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_throws_up.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_down.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Character/vinyl_throw_man_walk_up.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/blue-chaser.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/blue-chaser/blue_animal_chungus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/blue-chaser/blue_animal_chungus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/boss.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/boss/ZaBoss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/boss/ZaBoss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/boss/deep_dish_pizza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/boss/deep_dish_pizza.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_banana_fool.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_banana_fool.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_blue_animal_chungus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_blue_animal_chungus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_bothersome_tangerine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_bothersome_tangerine.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_flower_pow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_flower_pow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_hothead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_hothead.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_roley_blue_bossa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/dead_enemies/dead_roley_blue_bossa.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/bothersome_tangerine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/bothersome_tangerine.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/bothersome_tangering_firing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/bothersome_tangering_firing.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/bullet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/hothead_dancing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/hothead_dancing.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/hothead_firing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/red-shooter/hothead_firing.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/yellow-stationary.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/yellow-stationary/banana_fool.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/yellow-stationary/banana_fool.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/yellow-stationary/flower_pow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Critters/yellow-stationary/flower_pow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/arrows_wasd_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/arrows_wasd_r.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/crosshair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/crosshair.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/enter_key.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/enter_key.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/mouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/KeysAndMouse/mouse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/AlbumCoverSoundcloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/AlbumCoverSoundcloud.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/dj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/dj.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/dj_portrait.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/dj_portrait.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/elevator_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/elevator_close.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/elevator_open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/elevator_open.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/start_button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/start_button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/text_box_just_box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/text_box_just_box.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Misc/title.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_orange_creamsicle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_orange_creamsicle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_stack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Textures/Records/record_stack.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +69,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Stationlarry.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BulletDetectRecords.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
@@ -346,6 +83,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyInRandomDir.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
       </list>
     </option>

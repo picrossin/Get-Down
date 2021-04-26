@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Shoot : MonoBehaviour
@@ -6,6 +5,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private int framesBetweenShots;
     [SerializeField] private GameObject bullet;
     [SerializeField] private float bulletSpeed;
+    [SerializeField] private EnemyAnimation enemyAnimation;
 
     private int _currentShootFrame;
     private GameObject _player;
@@ -33,6 +33,8 @@ public class Shoot : MonoBehaviour
                 bulletInstance.GetComponent<Rigidbody>()
                     .AddForce(bulletDirection * 100f * bulletSpeed);
                 _currentShootFrame = 0;
+                
+                enemyAnimation.Shoot();
             }
         }
         else

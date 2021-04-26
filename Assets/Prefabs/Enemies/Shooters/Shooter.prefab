@@ -184,6 +184,7 @@ MonoBehaviour:
   framesBetweenShots: 90
   bullet: {fileID: 6772630126639194723, guid: 06b9caa0fb63fdf439aa5f54df308c6a, type: 3}
   bulletSpeed: 2.5
+  enemyAnimation: {fileID: 565918687}
 --- !u!1 &4445057636095572125
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +196,8 @@ GameObject:
   - component: {fileID: 4445057636095572122}
   - component: {fileID: 4445057636095572120}
   - component: {fileID: 4445057636095572123}
+  - component: {fileID: 565918688}
+  - component: {fileID: 565918687}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -211,7 +214,7 @@ Transform:
   m_GameObject: {fileID: 4445057636095572125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.5, y: 6.5, z: 6.5}
   m_Children: []
   m_Father: {fileID: 4445057635514500460}
   m_RootOrder: 0
@@ -268,7 +271,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 537cd33a0a063554aa2aa5cb8a4c68ca, type: 3}
+  m_Sprite: {fileID: 291917076744120975, guid: ef64d372e0297dd44a811d89bab9d6b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -279,3 +282,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &565918688
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4445057636095572125}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &565918687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4445057636095572125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7a43e1f40692141a721a891a4bde0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateNameAnim1: Bothersome Tangerine
+  stateNameAnim2: Hothead
+  controller1: {fileID: 9100000, guid: 3184d02e2f18a774abb0797a451b06d7, type: 2}
+  controller2: {fileID: 9100000, guid: 1a137ecff1e46444cb2d3a08817bd64d, type: 2}
+  shootFace1: {fileID: 21300000, guid: dee9b020bacd0d442b6295c8e628473d, type: 3}
+  shootFace2: {fileID: 21300000, guid: 342c3c91824bd314cb506f5b6e4e2fc4, type: 3}
