@@ -20,19 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/Post Processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/Post Processing Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level10Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level10Boss.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +147,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="23634000" />
+      <workItem from="1619451562768" duration="24109000" />
     </task>
     <servers />
   </component>
