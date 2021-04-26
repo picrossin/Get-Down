@@ -14,6 +14,9 @@ public class Conductor : MonoBehaviour
     private float _beatInMeasure;
     public float BeatInMeasure => _beatInMeasure;
     
+    private float _songPositionInBeats;
+    public float SongPositionInBeats => _songPositionInBeats;
+
     private float songBpm;
 
     private AudioSource musicSource;
@@ -22,7 +25,6 @@ public class Conductor : MonoBehaviour
 
     private float _songPosition;
 
-    public float _songPositionInBeats;
 
     private float _dspSongTime; // seconds passed since the song started
 
@@ -38,6 +40,7 @@ public class Conductor : MonoBehaviour
         
         DontDestroyOnLoad(gameObject);
         musicSource = GetComponent<AudioSource>();
+        musicSource.loop = true;
     }
 
     private void Update()
@@ -78,6 +81,8 @@ public class Conductor : MonoBehaviour
     {
         _secPerBeat = 60f / songBpm;
         _lastBeat = 0;
+        _songPosition = 0f;
+        _songPositionInBeats = 0f;
         _dspSongTime = (float) AudioSettings.dspTime;
     }
 }

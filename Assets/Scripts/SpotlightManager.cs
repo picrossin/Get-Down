@@ -52,14 +52,14 @@ public class SpotlightManager : MonoBehaviour
         _animCycleIndex = Random.Range(0, _animCycle.Length);
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         if (!_initialized)
         {
             _initialized = true;
             _conductor = GameObject.FindGameObjectWithTag("Conductor").GetComponent<Conductor>();
             _conductor.beat.AddListener(Flash);
-            _measureBeat = (int) _conductor.BeatInMeasure;
+            _measureBeat = (int) Mathf.Floor(_conductor.SongPositionInBeats);
         }
     }
 

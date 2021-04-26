@@ -21,6 +21,7 @@
             <e p="Shoot.cs" t="Include" />
           </e>
           <e p="FaceTowardsCamera.cs" t="Include" />
+          <e p="FirstLevelSpriteSwap.cs" t="Include" />
           <e p="FlyInRandomDir.cs" t="Include" />
           <e p="GameplayManager.cs" t="Include" />
           <e p="Music" t="Include">
@@ -35,6 +36,8 @@
           <e p="SetUpBoxCollider.cs" t="Include" />
           <e p="SpotlightManager.cs" t="Include" />
           <e p="TextRevealer.cs" t="Include" />
+          <e p="TitleBGAnimator.cs" t="Include" />
+          <e p="TitleSceneClick.cs" t="Include" />
           <e p="TransitionManager.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>

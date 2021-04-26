@@ -22,10 +22,14 @@
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/ZaBoss.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/ZaBoss.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/deep_dish_pizza.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/deep_dish_pizza.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Character/vinyl_fall_man.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Character/vinyl_fall_man.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/start_button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/start_button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/title.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/title.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +46,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BulletDetectRecords.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TitleBGAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlyInRandomDir.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,19 +79,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyInRandomDir.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateDJ.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TitleBGAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
       </list>
     </option>
   </component>
@@ -237,10 +246,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1893" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619373482148" />
-    <state x="26" y="-10" width="1893" height="1027" maximized="true" key="dock-window-2" timestamp="1619313530693">
+    <state x="43" y="0" width="1893" height="1027" key="dock-window-2" timestamp="1619446730338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="26" y="-10" width="1893" height="1027" maximized="true" key="dock-window-2/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619313530693" />
+    <state x="43" y="0" width="1893" height="1027" key="dock-window-2/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619446730338" />
     <state x="2558" y="-216" width="644" height="801" key="find.popup" timestamp="1619317503262">
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
