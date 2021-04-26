@@ -353,3 +353,4 @@ MonoBehaviour:
   frames:
   - {fileID: 2800000, guid: f3002aab4667d5c42857fe392d690fa5, type: 3}
   - {fileID: 2800000, guid: 1208c12eeacabcb418b7b37760a52f67, type: 3}
+  animateEmission: 1
