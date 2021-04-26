@@ -7,7 +7,8 @@ public class TransitionManager : MonoBehaviour
     private GameObject _ui;
 
     private bool _playElevator = true;
-    
+    public bool PlayElevator => _playElevator;
+
     private void Start()
     {
         GameObject[] otherTransitionManagers = GameObject.FindGameObjectsWithTag("TransitionManager");

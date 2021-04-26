@@ -10,17 +10,17 @@ PrefabInstance:
     - target: {fileID: 4786784567089587884, guid: 69c7011917581e44e99a7d85aece81a1,
         type: 3}
       propertyPath: m_Volume
-      value: 0.477
+      value: 0.503
       objectReference: {fileID: 0}
     - target: {fileID: 4786784567089587884, guid: 69c7011917581e44e99a7d85aece81a1,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d950f18f9a4fcfe4590242dbfc558905, type: 3}
+      objectReference: {fileID: 8300000, guid: 1c2ad3648b8015a48a26673acabe5216, type: 3}
     - target: {fileID: 4786784567089587886, guid: 69c7011917581e44e99a7d85aece81a1,
         type: 3}
       propertyPath: m_Name
-      value: Start Game Variant
+      value: Select Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4786784567089587887, guid: 69c7011917581e44e99a7d85aece81a1,
         type: 3}

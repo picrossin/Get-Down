@@ -20,11 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Elevator Music.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Elevator Music.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SFX Players/Start Game Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SFX Players/Start Game Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreBoss Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PreBoss Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Second Record Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Second Record Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Third Record Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Third Record Cutscene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +86,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
@@ -90,6 +96,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
       </list>
     </option>
   </component>
@@ -116,10 +126,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16740">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16740" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -137,6 +147,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
+      <workItem from="1619451562768" duration="1087000" />
     </task>
     <servers />
   </component>

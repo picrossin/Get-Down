@@ -281,6 +281,10 @@ MonoBehaviour:
   animateRecord: 0
   sleeve: {fileID: 0}
   vinyl: {fileID: 0}
+  voiceSound: {fileID: 1181343080271968745, guid: d167a9efb2881d14fb20e30fce272796,
+    type: 3}
+  selectSound: {fileID: 5501855721498772956, guid: db963c58a2eb93c4b8af76b814bd2f45,
+    type: 3}
 --- !u!1 &218477275
 GameObject:
   m_ObjectHideFlags: 0

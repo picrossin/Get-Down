@@ -9,6 +9,7 @@ public class DestroyAfterSound : MonoBehaviour
     {
         seconds = GetComponent<AudioSource>().clip.length + 0.5f;
         StartCoroutine(TimeToDestroy());
+        DontDestroyOnLoad(gameObject);
     }
 
     private IEnumerator TimeToDestroy()

@@ -162,3 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 215910594}
+  stopTrackThisLevel: 0
+  elevatorBeep: {fileID: 1181343080271968745, guid: 617f2f44941696b49b9bef634c8bf108,
+    type: 3}
+  elevatorDoor: {fileID: 1181343080271968745, guid: 45b93d5f034e6ea49b50c4a935cb32fe,
+    type: 3}

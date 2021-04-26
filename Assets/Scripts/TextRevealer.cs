@@ -16,6 +16,8 @@ public class TextRevealer : MonoBehaviour
     [SerializeField] private bool animateRecord;
     [SerializeField] private GameObject sleeve;
     [SerializeField] private GameObject vinyl;
+    [SerializeField] private GameObject voiceSound;
+    [SerializeField] private GameObject selectSound;
     
     private TextMeshProUGUI _uiText;
     private string _textToReveal;
@@ -37,14 +39,17 @@ public class TextRevealer : MonoBehaviour
             if (!_textDone)
             {
                 _skipDialogue = true;
+                Instantiate(selectSound);
             }
             else if (animateRecord)
             {
                 StartCoroutine(RevealRecord());
+                Instantiate(selectSound);
             }
             else
             {
                 StartCoroutine(NextLevel());
+                Instantiate(selectSound);
             }
         }
     }
@@ -66,7 +71,7 @@ public class TextRevealer : MonoBehaviour
             
             if (character != ' ')
             {
-                // play sound
+                Instantiate(voiceSound);
             }
 
             face.sprite = face2;
