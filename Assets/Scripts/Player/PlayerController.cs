@@ -123,6 +123,11 @@ public class PlayerController : MonoBehaviour
             _currentRecordCount++;
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            KillPlayer();
+        }
+
         if (Input.GetButtonDown("Jump"))
         {
             StartCoroutine(Sprint());

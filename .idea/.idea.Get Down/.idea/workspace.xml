@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/PizzaBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/PizzaBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SFX Players/PizzaDie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SFX Players/PizzaDie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level10Boss.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level10Boss.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BossDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateMouseSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,18 +82,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateDJ.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleBGAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateMouseSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
@@ -91,7 +98,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
       </list>
     </option>
   </component>
@@ -139,7 +150,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="12286000" />
+      <workItem from="1619451562768" duration="17041000" />
     </task>
     <servers />
   </component>
@@ -244,10 +255,10 @@
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
     <state x="1405" y="-350" width="1893" height="935" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619457820415" />
-    <state x="43" y="0" width="1893" height="1027" key="dock-window-2" timestamp="1619446730338">
+    <state x="349" y="0" width="1587" height="1027" key="dock-window-2" timestamp="1619467571596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="43" y="0" width="1893" height="1027" key="dock-window-2/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619446730338" />
+    <state x="349" y="0" width="1587" height="1027" key="dock-window-2/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619467571596" />
     <state x="2558" y="-216" width="644" height="801" key="find.popup" timestamp="1619317503262">
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>

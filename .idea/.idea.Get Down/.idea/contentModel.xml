@@ -13,6 +13,7 @@
           <e p="Elevator.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="BossAnimation.cs" t="Include" />
+            <e p="BossDeath.cs" t="Include" />
             <e p="BossShoot.cs" t="Include" />
             <e p="BulletDetectRecords.cs" t="Include" />
             <e p="ChaseEnemy.cs" t="Include" />
