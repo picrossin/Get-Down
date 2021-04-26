@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Close.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Elevator/Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Elevator/Open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/dj.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/dj.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_close.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Misc/elevator_open.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/Post Processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1/Post Processing Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music/AnimateToBeat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimateDJ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -79,6 +80,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimateDJ.cs" />
       </list>
     </option>
   </component>
