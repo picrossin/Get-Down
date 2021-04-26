@@ -34,6 +34,7 @@
             <e p="Pointer.cs" t="Include" />
             <e p="Record.cs" t="Include" />
           </e>
+          <e p="RotateMouseSprite.cs" t="Include" />
           <e p="SetUpBoxCollider.cs" t="Include" />
           <e p="SpotlightManager.cs" t="Include" />
           <e p="TextRevealer.cs" t="Include" />

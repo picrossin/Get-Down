@@ -159,7 +159,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.37
+  m_Radius: 0.52
   m_Center: {x: 0, y: -0.8, z: 0}
 --- !u!54 &3870092683920270261
 Rigidbody:
@@ -310,3 +310,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 3870092683571292715}
+  xSizeMultiply: 0.8
+  ySizeMultiply: 0.8

@@ -13,6 +13,7 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
     
     private Vector3 _initialPosition;
     private bool _inBox;
+    private bool _clicked;
     
     private void Start()
     {
@@ -22,8 +23,9 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (_inBox)
+        if (_inBox && !_clicked)
         {
+            _clicked = true;
             StartCoroutine(StartGame());
         }
     }

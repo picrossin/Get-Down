@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalHealth: 2
-  knockbackForce: 50
+  knockbackForce: 75
   invincibilityTimeInSeconds: 0.25
   onDestroyObject: {fileID: 0}
   enemyHurt: {fileID: 1181343080271968745, guid: 484921f796beceb4eadbea65b500189b,

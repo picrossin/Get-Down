@@ -8,6 +8,7 @@ public class Elevator : MonoBehaviour
     [SerializeField] private bool stopTrackThisLevel;
     [SerializeField] private GameObject elevatorBeep;
     [SerializeField] private GameObject elevatorDoor;
+    [SerializeField] private GameObject arrow;
     
     private bool _open;
 
@@ -31,6 +32,7 @@ public class Elevator : MonoBehaviour
         animator.SetTrigger("Open");
         _open = true;
         StartCoroutine(PlayElevatorSounds(true));
+        arrow.SetActive(true);
     }
 
     private IEnumerator GotoNextLevel()
