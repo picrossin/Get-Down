@@ -20,31 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/arrows_wasd_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/arrows_wasd_r.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/arrows_wasd_r.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/arrows_wasd_r.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/crosshair.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/crosshair.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/mouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/KeysAndMouse/mouse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Records/record_stack.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Records/record_stack.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Elevator.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Chasers/Chaser.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Shooters/Shooter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreBoss Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PreBoss Cutscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Second Record Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Second Record Cutscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Third Record Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Third Record Cutscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
@@ -113,6 +89,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
       </list>
     </option>
   </component>
@@ -160,7 +138,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="10204000" />
+      <workItem from="1619451562768" duration="11220000" />
     </task>
     <servers />
   </component>
