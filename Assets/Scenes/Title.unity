@@ -563,6 +563,8 @@ MonoBehaviour:
   transitionAnimation: {fileID: 4111213049706822126}
   startGameSound: {fileID: 5501855721498772956, guid: 62bf2bac12bc8cf4db36e3006b662666,
     type: 3}
+  hoverNoise: {fileID: 5501855721498772956, guid: db963c58a2eb93c4b8af76b814bd2f45,
+    type: 3}
 --- !u!1 &1891177590
 GameObject:
   m_ObjectHideFlags: 0

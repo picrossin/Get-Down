@@ -24,6 +24,7 @@ public class TextRevealer : MonoBehaviour
     private string _textToReveal;
     private bool _textDone;
     private bool _skipDialogue;
+    private bool _doneClicking;
     
     private void Start()
     {
@@ -42,14 +43,10 @@ public class TextRevealer : MonoBehaviour
                 _skipDialogue = true;
                 Instantiate(selectSound);
             }
-            else if (animateRecord)
+            else if (animateRecord && !_doneClicking)
             {
+                _doneClicking = true;
                 StartCoroutine(RevealRecord());
-                Instantiate(selectSound);
-            }
-            else
-            {
-                StartCoroutine(NextLevel());
                 Instantiate(selectSound);
             }
         }

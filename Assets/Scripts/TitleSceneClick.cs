@@ -9,6 +9,7 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
     [SerializeField] private GameObject fallingImage;
     [SerializeField] private Animator transitionAnimation;
     [SerializeField] private GameObject startGameSound;
+    [SerializeField] private GameObject hoverNoise;
     
     private Vector3 _initialPosition;
     private bool _inBox;
@@ -31,6 +32,7 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         image.position = _initialPosition + new Vector3(0, 10f, 0);
         _inBox = true;
+        Instantiate(hoverNoise);
     }
 
     public void OnPointerExit(PointerEventData eventData)
