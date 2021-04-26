@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotateMouseSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,9 +62,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Pointer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Record.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Stationlarry.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BulletDetectRecords.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
@@ -76,17 +77,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RotateMouseSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
       </list>
     </option>
   </component>
@@ -134,7 +138,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="6333000" />
+      <workItem from="1619451562768" duration="11220000" />
     </task>
     <servers />
   </component>

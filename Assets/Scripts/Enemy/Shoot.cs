@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Shoot : MonoBehaviour
@@ -6,15 +7,18 @@ public class Shoot : MonoBehaviour
     [SerializeField] private float bulletSpeed;
     [SerializeField] private EnemyAnimation enemyAnimation;
     [SerializeField] private GameObject spitSound;
+    [SerializeField] private float waitSeconds = 1f;
 
     private GameObject _player;
     private Conductor _conductor;
     private bool _initialized;
     private bool _offBeat;
+    private bool _waiting = true;
     
     private void Start()
     {
         _player = GameObject.FindWithTag("Player");
+        StartCoroutine(WaitTime());
     }
 
     private void Update()
@@ -33,7 +37,7 @@ public class Shoot : MonoBehaviour
     {
         _offBeat = !_offBeat;
         
-        if (_player != null && _offBeat)
+        if (_player != null && _offBeat && !_waiting)
         {
             Instantiate(spitSound);
             
@@ -52,5 +56,12 @@ public class Shoot : MonoBehaviour
         {
             _player = GameObject.FindWithTag("Player");
         }
+    }
+
+    private IEnumerator WaitTime()
+    {
+        _waiting = true;
+        yield return new WaitForSeconds(waitSeconds);
+        _waiting = false;
     }
 }

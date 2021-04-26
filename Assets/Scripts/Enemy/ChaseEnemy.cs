@@ -1,18 +1,21 @@
-using System;
+using System.Collections;
 using UnityEngine;
 
 public class ChaseEnemy : MonoBehaviour
 {
     [SerializeField] private float speed = 1;
     [SerializeField] private float sightRange = 4;
-
+    [SerializeField] private float waitSeconds = 1f;
+    
     private GameObject _player;
     private bool _chasing;
     private Vector3 _moveDir;
+    private bool _waiting = true;
     
     private void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
+        StartCoroutine(WaitTime());
     }
 
     private void Update()
@@ -33,9 +36,16 @@ public class ChaseEnemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_chasing)
+        if (_chasing && !_waiting)
         {
             transform.position += _moveDir / 100 * speed;
         }
+    }
+
+    private IEnumerator WaitTime()
+    {
+        _waiting = true;
+        yield return new WaitForSeconds(waitSeconds);
+        _waiting = false;
     }
 }

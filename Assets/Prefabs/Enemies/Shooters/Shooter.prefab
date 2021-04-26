@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8dc4183b293aa4280371b56110e337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalHealth: 3
-  knockbackForce: 50
+  totalHealth: 2
+  knockbackForce: 75
   invincibilityTimeInSeconds: 0.25
   onDestroyObject: {fileID: 0}
   enemyHurt: {fileID: 1181343080271968745, guid: 484921f796beceb4eadbea65b500189b,
@@ -188,7 +188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c8bb4e6c48d4a4cbfd85d4613c5d0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  framesBetweenShots: 90
   bullet: {fileID: 6772630126639194723, guid: 06b9caa0fb63fdf439aa5f54df308c6a, type: 3}
   bulletSpeed: 2.5
   enemyAnimation: {fileID: 565918687}
