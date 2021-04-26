@@ -19,7 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="" />
+    <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/alba-font.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/alba-font.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/orange_kid.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/orange_kid.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/grave dance1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/grave dance1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/lets booger1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/lets booger1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/record_grave dance.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/record_grave dance.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/record_lets booger.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/record_lets booger.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/record_sinister shuffle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/record_sinister shuffle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/sinister shuffle1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/sinister shuffle1.png.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +87,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
       </list>
     </option>
   </component>
