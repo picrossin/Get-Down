@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject catchRecordSound;
     [SerializeField] private GameObject dieSound;
     [SerializeField] private GameObject footstep;
+    [SerializeField] private float sprintMultiplierTotal = 1.5f;
     
     [SerializeField] private Image recordStackImage;
     [SerializeField] private Sprite stack1;
@@ -49,7 +50,9 @@ public class PlayerController : MonoBehaviour
     private bool _throwingAnim;
     private Conductor _conductor;
     private bool _initialized;
-
+    private bool _dead;
+    private float _currentSprintMultiplier = 1f;
+    
     private void Start()
     {
         _cursor = GameObject.FindWithTag("Cursor").transform;
@@ -120,6 +123,19 @@ public class PlayerController : MonoBehaviour
             _currentRecordCount++;
         }
 
+        if (Input.GetButtonDown("Jump"))
+        {
+            StartCoroutine(Sprint());
+        }
+        else
+        {
+            _currentSprintMultiplier -= 0.01f;
+            if (_currentSprintMultiplier < 1)
+            {
+                _currentSprintMultiplier = 1.0f;
+            }
+        }
+
         // Update direction and animate
         if (!_throwingAnim)
         {
@@ -176,7 +192,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position += _movementInput / 100 * walkSpeed;
+        transform.position += _movementInput / 100 * walkSpeed * _currentSprintMultiplier;
 
         if (_currentCatchFrames > 0)
         {
@@ -252,10 +268,14 @@ public class PlayerController : MonoBehaviour
 
     private void KillPlayer()
     {
-        Instantiate(dieSound);
-        GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
-        Instantiate(hurtObject, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        if (!_dead)
+        {
+            _dead = true;
+            Instantiate(dieSound);
+            GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
+            Instantiate(hurtObject, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 
     private void PlayFootstep()
@@ -264,6 +284,16 @@ public class PlayerController : MonoBehaviour
         {
             GameObject footstepObj = Instantiate(footstep, transform.position, Quaternion.identity);
             footstepObj.GetComponent<AudioSource>().PlayOneShot(footstepObj.GetComponent<AudioSource>().clip, 2f);
+        }
+    }
+
+    private IEnumerator Sprint()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            _currentSprintMultiplier += 0.1f;
+            _currentSprintMultiplier = Mathf.Min(sprintMultiplierTotal, _currentSprintMultiplier);
+            yield return new WaitForSeconds(0.01f);
         }
     }
 }

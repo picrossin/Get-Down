@@ -83,6 +83,9 @@ MonoBehaviour:
   meshRenderer: {fileID: 6772630127896914613}
   pingSound: {fileID: 1181343080271968745, guid: 2fe2b473b6fbd224fbf2b13296295962,
     type: 3}
+  fallSound: {fileID: 1181343080271968745, guid: 9c97884b860020f4cb7cfda7910e0fdb,
+    type: 3}
+  deadzone: 0.1
 --- !u!82 &8890782639055531915
 AudioSource:
   m_ObjectHideFlags: 0

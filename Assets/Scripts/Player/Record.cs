@@ -10,6 +10,7 @@ public class Record : MonoBehaviour
     [SerializeField] private Texture2D record3;
     [SerializeField] private MeshRenderer meshRenderer;
     [SerializeField] private GameObject pingSound;
+    [SerializeField] private GameObject fallSound;
     [SerializeField] private float deadzone = 0.1f;
     
     private int _bounces = 0;
@@ -29,8 +30,13 @@ public class Record : MonoBehaviour
             {
                 _onGround = true;
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
+                Instantiate(fallSound);
+                GetComponent<AudioSource>().Stop();
             }
-            Instantiate(pingSound);
+            else
+            {
+                Instantiate(pingSound);
+            }
             
             StartCoroutine(CountDeadzone());
         }
