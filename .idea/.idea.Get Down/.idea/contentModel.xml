@@ -11,6 +11,8 @@
           <e p="DiscoTiles.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
           <e p="Enemy" t="Include">
+            <e p="BossAnimation.cs" t="Include" />
+            <e p="BossShoot.cs" t="Include" />
             <e p="BulletDetectRecords.cs" t="Include" />
             <e p="ChaseEnemy.cs" t="Include" />
             <e p="EnemyAnimation.cs" t="Include" />

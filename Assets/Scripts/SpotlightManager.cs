@@ -8,7 +8,8 @@ public class SpotlightManager : MonoBehaviour
         DualCorners = 0,
         FourCorners = 1,
         TopBottom = 2,
-        LeftRight = 3
+        LeftRight = 3,
+        Boss = 4
     }
 
     [SerializeField] private LightAnimations currentAnim = LightAnimations.DualCorners;
@@ -19,13 +20,15 @@ public class SpotlightManager : MonoBehaviour
     [SerializeField] private float flashIntensity = 35f;
     [SerializeField] private Color color1;
     [SerializeField] private Color color2;
-    
+    [SerializeField] private float buildSpeed = 3;
+    [SerializeField] private bool isBoss;
+
     private int _measureBeat;
     private Conductor _conductor;
     private bool _initialized;
     private LightAnimations[] _animCycle;
     private int _animCycleIndex;
-    
+
     private void Start()
     {
         topRight.intensity = 0;
@@ -40,10 +43,10 @@ public class SpotlightManager : MonoBehaviour
 
         _animCycle = new[]
         {
-            LightAnimations.DualCorners, 
-            LightAnimations.FourCorners, 
+            LightAnimations.DualCorners,
+            LightAnimations.FourCorners,
             LightAnimations.TopBottom,
-            LightAnimations.LeftRight
+            LightAnimations.LeftRight,
         };
 
         _animCycleIndex = Random.Range(0, _animCycle.Length);
@@ -98,7 +101,7 @@ public class SpotlightManager : MonoBehaviour
                 {
                     StartCoroutine(FlashLight(new[] {bottomLeft, bottomRight, topLeft, topRight}, 0.2f));
                 }
-                
+
                 break;
             case LightAnimations.TopBottom:
                 if (_measureBeat == 0 || _measureBeat == 2)
@@ -113,7 +116,7 @@ public class SpotlightManager : MonoBehaviour
                 {
                     StartCoroutine(FlashLight(new[] {bottomLeft, bottomRight, topLeft, topRight}, 0.2f));
                 }
-                
+
                 break;
             case LightAnimations.LeftRight:
                 if (_measureBeat == 0 || _measureBeat == 2)
@@ -128,19 +131,33 @@ public class SpotlightManager : MonoBehaviour
                 {
                     StartCoroutine(FlashLight(new[] {bottomLeft, bottomRight, topLeft, topRight}, 0.2f));
                 }
-                
+
+                break;
+            case LightAnimations.Boss:
+                if (_measureBeat == 1)
+                {
+                    StartCoroutine(FlashLight(new[] {topLeft, topRight}, 0.4f));
+                }
+                if (_measureBeat == 2)
+                {
+                    StartCoroutine(FlashLight(new[] {bottomLeft, bottomRight}, 0.4f));
+                }
+
                 break;
         }
 
-        if (_measureBeat == 3)
+        if (!isBoss)
         {
-            _animCycleIndex++;
-            if (_animCycleIndex == _animCycle.Length)
+            if (_measureBeat == 3)
             {
-                _animCycleIndex = 0;
+                _animCycleIndex++;
+                if (_animCycleIndex == _animCycle.Length)
+                {
+                    _animCycleIndex = 0;
+                }
+
+                currentAnim = _animCycle[_animCycleIndex];
             }
-            
-            currentAnim = _animCycle[_animCycleIndex];
         }
     }
 
@@ -154,7 +171,7 @@ public class SpotlightManager : MonoBehaviour
                 light.intensity = currentIntensity;
             }
 
-            currentIntensity += 3;
+            currentIntensity += buildSpeed;
             yield return new WaitForSeconds(0.001f);
         }
 
@@ -167,7 +184,7 @@ public class SpotlightManager : MonoBehaviour
                 light.intensity = currentIntensity;
             }
 
-            currentIntensity -= 3;
+            currentIntensity -= buildSpeed;
             yield return new WaitForSeconds(0.001f);
         }
 

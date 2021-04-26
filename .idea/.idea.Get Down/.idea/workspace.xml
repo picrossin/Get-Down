@@ -20,27 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Grave_Dance_MASTER.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Grave_Dance_MASTER.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Lets_Boogie_MASTER.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Lets_Boogie_MASTER.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameplayManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameplayManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Intro Cutscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/ZaBoss.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/ZaBoss.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/deep_dish_pizza.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CamdenSprites/Textures/Critters/boss/deep_dish_pizza.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +47,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music/AnimateToBeat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimateDJ.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -81,7 +68,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BulletDetectRecords.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/AnimateToBeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyInRandomDir.cs" />
@@ -93,10 +79,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiscoTiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextRevealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Music/Conductor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpotlightManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDamage.cs" />
       </list>
     </option>
   </component>

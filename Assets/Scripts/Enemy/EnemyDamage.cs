@@ -1,12 +1,16 @@
-using System;
+using System.Collections;
 using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
     [SerializeField] private int totalHealth = 3;
-
+    [SerializeField] private float knockbackForce = 50f;
+    [SerializeField] private float invincibilityTimeInSeconds = 0.25f;
+    [SerializeField] private GameObject onDestroyObject;
+    
     private int _currentHealth;
     private Rigidbody _rigidbody;
+    private bool _invincible;
     
     private void Start()
     {
@@ -24,19 +28,35 @@ public class EnemyDamage : MonoBehaviour
 
     private void TakeDamage(Vector3 recordPosition)
     {
-        _currentHealth--;
-        if (_currentHealth > 0)
+        if (!_invincible)
         {
-            Vector3 recordPosition2D = new Vector3(recordPosition.x, 0, recordPosition.z);
-            Vector3 enemyPosition2D = new Vector3(transform.position.x, 0, transform.position.z);
-            Vector3 knockbackDir = (recordPosition2D - enemyPosition2D).normalized;
+            _currentHealth--;
+            if (_currentHealth > 0)
+            {
+                Vector3 recordPosition2D = new Vector3(recordPosition.x, 0, recordPosition.z);
+                Vector3 enemyPosition2D = new Vector3(transform.position.x, 0, transform.position.z);
+                Vector3 knockbackDir = (recordPosition2D - enemyPosition2D).normalized;
             
-            _rigidbody.AddForce(-knockbackDir * 50f, ForceMode.Impulse);
+                _rigidbody.AddForce(-knockbackDir * knockbackForce, ForceMode.Impulse);
+
+                StartCoroutine(InvincibilityFrame());
+            }
+            else
+            {
+                GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().EnemyKilled();
+                if (onDestroyObject != null)
+                {
+                    Instantiate(onDestroyObject, transform.position, Quaternion.identity);
+                }
+                Destroy(gameObject);
+            }
         }
-        else
-        {
-            GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().EnemyKilled();
-            Destroy(gameObject);
-        }
+    }
+
+    private IEnumerator InvincibilityFrame()
+    {
+        _invincible = true;
+        yield return new WaitForSeconds(invincibilityTimeInSeconds);
+        _invincible = false;
     }
 }
