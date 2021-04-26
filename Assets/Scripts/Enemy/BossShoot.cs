@@ -1,18 +1,22 @@
+using System.Collections;
 using UnityEngine;
 
 public class BossShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bullet;
     [SerializeField] private float bulletSpeed;
+    [SerializeField] private float waitSeconds = 1f;
 
     private Conductor _conductor;
     private bool _initialized;
     private GameObject _player;
     private bool _offBeat;
+    private bool _waiting = true;
 
     private void Start()
     {
         _player = GameObject.FindWithTag("Player");
+        StartCoroutine(WaitTime());
     }
 
     private void Update()
@@ -31,7 +35,7 @@ public class BossShoot : MonoBehaviour
     {
         _offBeat = !_offBeat;
         
-        if (_player != null && _offBeat)
+        if (_player != null && _offBeat && !_waiting)
         {
             Vector3 playerPos2D = new Vector3(_player.transform.position.x, 0, _player.transform.position.z);
             Vector3 enemyPos2D = new Vector3(transform.position.x, 0, transform.position.z);
@@ -48,5 +52,12 @@ public class BossShoot : MonoBehaviour
         {
             _player = GameObject.FindWithTag("Player");
         }
+    }
+    
+    private IEnumerator WaitTime()
+    {
+        _waiting = true;
+        yield return new WaitForSeconds(waitSeconds);
+        _waiting = false;
     }
 }

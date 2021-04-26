@@ -6,7 +6,13 @@ public class TransitionManager : MonoBehaviour
 {
     [SerializeField] private GameObject elevatorMusic;
     [SerializeField] private float currentVol;
-    
+
+    public float CurrentVol
+    {
+        get => currentVol;
+        set => currentVol = value;
+    }
+
     private GameObject _ui;
 
     private bool _playElevator = true;

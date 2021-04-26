@@ -19,7 +19,8 @@ public class TextRevealer : MonoBehaviour
     [SerializeField] private GameObject voiceSound;
     [SerializeField] private GameObject selectSound;
     [SerializeField] private GameObject recordGetSound;
-    
+    [SerializeField] private bool lastScene;
+
     private TextMeshProUGUI _uiText;
     private string _textToReveal;
     private bool _textDone;
@@ -48,6 +49,10 @@ public class TextRevealer : MonoBehaviour
                 _doneClicking = true;
                 StartCoroutine(RevealRecord());
                 Instantiate(selectSound);
+            }
+            else
+            {
+                StartCoroutine(NextLevel());
             }
         }
     }
@@ -92,14 +97,18 @@ public class TextRevealer : MonoBehaviour
         Instantiate(recordGetSound);
         yield return new WaitForSeconds(1.2f);
         vinyl.SetActive(true);
-        yield return new WaitForSeconds(1.5f);
-        StartCoroutine(NextLevel());
     }
 
     private IEnumerator NextLevel()
     {
         transitionAnimator.SetTrigger("FinishLevel");
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        if (lastScene)
+        {
+            Destroy(GameObject.FindGameObjectWithTag("Conductor"));
+            GameObject.FindGameObjectWithTag("TransitionManager").GetComponent<TransitionManager>().CurrentVol = 0.34f;
+            Cursor.visible = true;
+        }
+        SceneManager.LoadSceneAsync(lastScene ? 0 : SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

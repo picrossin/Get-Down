@@ -12,6 +12,9 @@ TagManager:
   - Conductor
   - TransitionManager
   - UI
+  - ElevatorTransition
+  - DeathTransition
+  - Elevator
   layers:
   - Default
   - TransparentFX

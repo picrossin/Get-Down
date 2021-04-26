@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level10Boss.unity
     guid: 66f495c4f4106784cb96a93f7e6365f0
+  - enabled: 1
+    path: Assets/Scenes/PostBoss Cutscene.unity
+    guid: 99d40936509d3024dabcdd1be83cd676
   m_configObjects: {}
