@@ -154,7 +154,7 @@ public class SpotlightManager : MonoBehaviour
                 light.intensity = currentIntensity;
             }
 
-            currentIntensity += 2;
+            currentIntensity += 3;
             yield return new WaitForSeconds(0.001f);
         }
 
@@ -167,7 +167,7 @@ public class SpotlightManager : MonoBehaviour
                 light.intensity = currentIntensity;
             }
 
-            currentIntensity -= 2;
+            currentIntensity -= 3;
             yield return new WaitForSeconds(0.001f);
         }
 

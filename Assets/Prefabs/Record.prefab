@@ -76,6 +76,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalBounce: 4
+  record1: {fileID: 2800000, guid: 475d5805d23056648951968380409d1c, type: 3}
+  record2: {fileID: 2800000, guid: 3c1149972b2a2a942843c281cb09c551, type: 3}
+  record3: {fileID: 2800000, guid: 1476e15062608624989d380684a2ecfe, type: 3}
+  meshRenderer: {fileID: 6772630127896914613}
 --- !u!1 &6772630127896914615
 GameObject:
   m_ObjectHideFlags: 0

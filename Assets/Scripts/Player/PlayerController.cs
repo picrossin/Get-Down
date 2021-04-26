@@ -1,6 +1,6 @@
-using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -21,7 +21,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Sprite throwLeft;
     [SerializeField] private Sprite throwRight;
     [SerializeField] private GameObject hurtObject;
-    
+
+    [SerializeField] private Image recordStackImage;
+    [SerializeField] private Sprite stack1;
+    [SerializeField] private Sprite stack2;
+    [SerializeField] private Sprite stack3;
+
     private enum Direction
     {
         Up,
@@ -63,9 +68,28 @@ public class PlayerController : MonoBehaviour
                 transform.position + throwDir * 1f,
                 Quaternion.identity);
             recordInstance.GetComponent<Rigidbody>().AddForce(throwDir * throwSpeed * 100);
+            recordInstance.GetComponent<Record>().SetRecordTexture(_currentRecordCount);
             _currentRecordCount--;
-
+            
             StartCoroutine(PlayThrowAnim());
+        }
+
+        if (_currentRecordCount == 0)
+        {
+            recordStackImage.enabled = false;
+        }
+        else if (_currentRecordCount == 1)
+        {
+            recordStackImage.enabled = true;
+            recordStackImage.sprite = stack1;
+        }
+        else if (_currentRecordCount == 2)
+        {
+            recordStackImage.sprite = stack2;
+        }
+        else if (_currentRecordCount == 3)
+        {
+            recordStackImage.sprite = stack3;
         }
 
         if (Input.GetButtonDown("Fire2") && _currentCatchFrames <= 0 && _coyoteRecord == null)

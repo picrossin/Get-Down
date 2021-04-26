@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class DiscoTiles : MonoBehaviour
 {
-    [SerializeField] private Color color1;
-    [SerializeField] private Color color2;
+    [SerializeField] private Color color1 = Color.white;
+    [SerializeField] private Color color2 = Color.white;
     [SerializeField] private int tilesPerRow = 6;
-    [SerializeField] private float emissionIntensity = 2;
+    [SerializeField] private float emissionIntensity = 0.3f;
 
     private List<Material> _tiles = new List<Material>();
     private Conductor _conductor;
