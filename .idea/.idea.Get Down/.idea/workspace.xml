@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Get Down/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Record.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" afterDir="false" />
     </list>
@@ -89,8 +90,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetUpBoxCollider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +139,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="11220000" />
+      <workItem from="1619451562768" duration="12286000" />
     </task>
     <servers />
   </component>
@@ -251,9 +252,9 @@
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
     <state x="2558" y="-216" width="644" height="801" key="find.popup/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619317503262" />
-    <state x="2543" y="-110" width="672" height="678" key="search.everywhere.popup" timestamp="1619411147138">
+    <state x="2543" y="-110" width="672" height="678" key="search.everywhere.popup" timestamp="1619466286744">
       <screen x="1920" y="-335" width="1920" height="1040" />
     </state>
-    <state x="2543" y="-110" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619411147138" />
+    <state x="2543" y="-110" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-335.1920.1040@1920.-335.1920.1040" timestamp="1619466286744" />
   </component>
 </project>
