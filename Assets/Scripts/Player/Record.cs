@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -25,6 +24,13 @@ public class Record : MonoBehaviour
     private int _trailIndex;
     private bool _inDeadZone;
 
+    private Rigidbody _rigidbody;
+
+    private void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+    }
+
     private void FixedUpdate()
     {
         _trailIndex++;
@@ -41,7 +47,9 @@ public class Record : MonoBehaviour
         {
             _bounces++;
             Instantiate(bumpParticles, transform.position, Quaternion.identity);
-            if (_bounces >= totalBounce)
+            if (_bounces >= totalBounce || 
+                (Mathf.Abs(_rigidbody.velocity.x) <= 1 && Mathf.Abs(_rigidbody.velocity.y) <= 1 &&
+                 Mathf.Abs(_rigidbody.velocity.z) <= 1))
             {
                 _onGround = true;
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
