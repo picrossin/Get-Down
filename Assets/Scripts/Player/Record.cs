@@ -12,6 +12,9 @@ public class Record : MonoBehaviour
     [SerializeField] private GameObject pingSound;
     [SerializeField] private GameObject fallSound;
     [SerializeField] private float deadzone = 0.1f;
+    [SerializeField] private int framesBetweenTrail = 3;
+    [SerializeField] private GameObject trail;
+    [SerializeField] private GameObject bumpParticles;
     
     private int _bounces = 0;
     public int Bounces => _bounces;
@@ -19,13 +22,25 @@ public class Record : MonoBehaviour
     private bool _onGround;
     public bool OnGround => _onGround;
 
+    private int _trailIndex;
     private bool _inDeadZone;
-    
+
+    private void FixedUpdate()
+    {
+        _trailIndex++;
+        if (_trailIndex >= framesBetweenTrail && !_onGround)
+        {
+            _trailIndex = 0;
+            Instantiate(trail, transform.position + Vector3.down * 0.1f, Quaternion.identity);
+        }
+    }
+
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.layer == 3 && !_inDeadZone)
         {
             _bounces++;
+            Instantiate(bumpParticles, transform.position, Quaternion.identity);
             if (_bounces >= totalBounce)
             {
                 _onGround = true;

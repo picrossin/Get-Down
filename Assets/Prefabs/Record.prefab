@@ -86,6 +86,10 @@ MonoBehaviour:
   fallSound: {fileID: 1181343080271968745, guid: 9c97884b860020f4cb7cfda7910e0fdb,
     type: 3}
   deadzone: 0.1
+  framesBetweenTrail: 3
+  trail: {fileID: 5547337078418089703, guid: 51f0ef9229fa03f41ad28bb490370e3e, type: 3}
+  bumpParticles: {fileID: 4210507329873680871, guid: 0a576af94f2374f4b81abc483fe32921,
+    type: 3}
 --- !u!82 &8890782639055531915
 AudioSource:
   m_ObjectHideFlags: 0

@@ -249,6 +249,9 @@ MonoBehaviour:
     type: 3}
   footstep: {fileID: 1181343080271968745, guid: ce8131bf9ee83264fa3ceb0fd5ba2e90,
     type: 3}
+  sprintMultiplierTotal: 1.5
+  deathParticles: {fileID: 8792176324401698904, guid: 3ab5e65acd747544695ed7656aa8f3e7,
+    type: 3}
   recordStackImage: {fileID: 0}
   stack1: {fileID: -4457650998176762566, guid: d41521d0564b91948ac43d2ca176b2d0, type: 3}
   stack2: {fileID: -2125248036894851506, guid: d41521d0564b91948ac43d2ca176b2d0, type: 3}

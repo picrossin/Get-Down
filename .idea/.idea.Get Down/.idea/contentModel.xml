@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AnimateDJ.cs" t="Include" />
+          <e p="DestroyAfterSeconds.cs" t="Include" />
           <e p="DestroyAfterSound.cs" t="Include" />
           <e p="DiscoTiles.cs" t="Include" />
           <e p="Elevator.cs" t="Include" />
@@ -36,8 +37,11 @@
             <e p="Record.cs" t="Include" />
           </e>
           <e p="Quitter.cs" t="Include" />
+          <e p="RecordFade.cs" t="Include" />
           <e p="RotateMouseSprite.cs" t="Include" />
+          <e p="ScreenShake.cs" t="Include" />
           <e p="SetUpBoxCollider.cs" t="Include" />
+          <e p="ShakeScreenOnSpawn.cs" t="Include" />
           <e p="SpotlightManager.cs" t="Include" />
           <e p="TextRevealer.cs" t="Include" />
           <e p="TitleBGAnimator.cs" t="Include" />

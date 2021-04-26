@@ -267,6 +267,8 @@ MonoBehaviour:
     type: 3}
   enemyDie: {fileID: 1181343080271968745, guid: 58059b79e070ffc4a9fcf9955f5e7c54,
     type: 3}
+  hurtParticles: {fileID: 6330553507924917941, guid: 94e5c314ae5800747a0b4f1cc8aee5d3,
+    type: 3}
 --- !u!1 &7664662153029520814
 GameObject:
   m_ObjectHideFlags: 0

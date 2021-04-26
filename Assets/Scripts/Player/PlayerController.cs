@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject dieSound;
     [SerializeField] private GameObject footstep;
     [SerializeField] private float sprintMultiplierTotal = 1.5f;
+    [SerializeField] private GameObject deathParticles;
     
     [SerializeField] private Image recordStackImage;
     [SerializeField] private Sprite stack1;
@@ -277,6 +278,7 @@ public class PlayerController : MonoBehaviour
         {
             _dead = true;
             Instantiate(dieSound);
+            Instantiate(deathParticles, transform.position, Quaternion.identity);
             GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
             Instantiate(hurtObject, transform.position, Quaternion.identity);
             Destroy(gameObject);

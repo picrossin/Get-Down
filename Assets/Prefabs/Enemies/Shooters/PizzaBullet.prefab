@@ -69,6 +69,7 @@ GameObject:
   - component: {fileID: 6772630126639194724}
   - component: {fileID: 6772630126639194720}
   - component: {fileID: 8261043863578962200}
+  - component: {fileID: -3235134194517787548}
   m_Layer: 8
   m_Name: PizzaBullet
   m_TagString: EnemyBullet
@@ -134,6 +135,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bouncesToDestroy: 4
+--- !u!114 &-3235134194517787548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6772630126639194723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80faafd971ccff94da856a96cd8148a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsBeforeDestroy: 8
 --- !u!1 &6772630127896914615
 GameObject:
   m_ObjectHideFlags: 0

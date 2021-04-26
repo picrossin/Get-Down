@@ -9,6 +9,7 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] private GameObject onDestroyObject;
     [SerializeField] private GameObject enemyHurt;
     [SerializeField] private GameObject enemyDie;
+    [SerializeField] private GameObject hurtParticles;
     
     private int _currentHealth;
     private Rigidbody _rigidbody;
@@ -31,6 +32,8 @@ public class EnemyDamage : MonoBehaviour
 
     private void TakeDamage(Vector3 recordPosition, GameObject record)
     {
+        Instantiate(hurtParticles, transform.position, Quaternion.identity);
+        
         if (!_invincible || record.GetInstanceID() != _inflictingRecord.GetInstanceID())
         {
             _currentHealth--;

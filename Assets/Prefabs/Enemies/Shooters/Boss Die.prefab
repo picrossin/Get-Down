@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4631094650834224872}
   - component: {fileID: 8874468133020007953}
   - component: {fileID: 499595726505039943}
+  - component: {fileID: -7968784607861338842}
   m_Layer: 0
   m_Name: Boss Die
   m_TagString: Untagged
@@ -116,3 +117,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aa4149dc1f015c4d85754a70fcd2573, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7968784607861338842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923350048476350797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cd46ea4ef05b14d8ff1fca96c19ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.5
+  intensity: 3
