@@ -183,7 +183,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Yo yo what it is! You must be the disco exterminator! Here's the lowdown.
     There's some freaky-deaky boogie monsters here in my club! Why don't you take
-    this record and rock their world!
+    this record and rock their world! Remember, catch the discs after you throw them!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d8891bdc9ed87146b8ee79d729cdf2d, type: 2}
   m_sharedMaterial: {fileID: -6005073440354714240, guid: 7d8891bdc9ed87146b8ee79d729cdf2d,
@@ -211,10 +211,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49
-  m_fontSizeBase: 48.9
+  m_fontSize: 41.73
+  m_fontSizeBase: 41.73
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 35
   m_fontSizeMax: 49
   m_fontStyle: 0
@@ -288,6 +288,7 @@ MonoBehaviour:
     type: 3}
   recordGetSound: {fileID: 1181343080271968745, guid: ad4631200e14b2d4ea97da21d0d4f3f9,
     type: 3}
+  lastScene: 0
 --- !u!1 &157713947
 GameObject:
   m_ObjectHideFlags: 0
