@@ -17,7 +17,7 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
     
     private void Start()
     {
-        _initialPosition = image.position;
+        _initialPosition = image.localPosition;
         fallingImage.SetActive(false);
     }
 
@@ -32,14 +32,14 @@ public class TitleSceneClick : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        image.position = _initialPosition + new Vector3(0, 10f, 0);
+        image.localPosition = _initialPosition + new Vector3(0, 10f, 0);
         _inBox = true;
         Instantiate(hoverNoise);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        image.position = _initialPosition;
+        image.localPosition = _initialPosition;
         _inBox = false;
     }
 

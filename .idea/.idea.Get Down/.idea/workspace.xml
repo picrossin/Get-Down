@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86df1910-7b62-48d2-8ce1-797fd90981c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP-MediumQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP-MediumQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +86,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstLevelSpriteSwap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterSound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateMouseSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ChaseEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Shoot.cs" />
@@ -100,6 +103,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShakeScreenOnSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BossDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Record.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TitleSceneClick.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +151,7 @@
       <workItem from="1619245669938" duration="2271000" />
       <workItem from="1619275250812" duration="32138000" />
       <workItem from="1619365980683" duration="15790000" />
-      <workItem from="1619451562768" duration="24109000" />
+      <workItem from="1619451562768" duration="24739000" />
     </task>
     <servers />
   </component>
