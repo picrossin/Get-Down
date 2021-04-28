@@ -48,7 +48,8 @@ public class LivesTimeManager : MonoBehaviour
         }
 
         if (SceneManager.GetActiveScene().name != "Title" &&
-            SceneManager.GetActiveScene().name != "Intro Cutscene")
+            SceneManager.GetActiveScene().name != "Intro Cutscene" &&
+            SceneManager.GetActiveScene().name != "PostBoss Cutscene")
         {
             time += Time.deltaTime;
             DisplayTime(time);
@@ -60,6 +61,7 @@ public class LivesTimeManager : MonoBehaviour
         else if (SceneManager.GetActiveScene().name == "Intro Cutscene")
         {
             time = 0;
+            lives = 0;
             DisplayTime(time);
         }
     }

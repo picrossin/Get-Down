@@ -63,7 +63,7 @@ public class TextRevealer : MonoBehaviour
         
         yield return new WaitForSeconds(0.5f);
 
-        int soundEveryChar = 5;
+        int soundEveryChar = 4;
         int soundEveryCharIndex = 0;
         
         foreach (char character in _textToReveal)
@@ -80,9 +80,8 @@ public class TextRevealer : MonoBehaviour
             {
                 soundEveryCharIndex = 0;
                 Instantiate(voiceSound);
+                face.sprite = face2;
             }
-
-            face.sprite = face2;
             
             yield return new WaitForSeconds(secondsPerLetter);
 

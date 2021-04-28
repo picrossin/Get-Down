@@ -103353,12 +103353,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3870092685649322268, guid: 234df36093888fa4abcdef98709e6e0e,
         type: 3}
-      propertyPath: dashParticles
-      value: 
-      objectReference: {fileID: 682181071952476358, guid: d385603551b16a448a8db40cc0e74c0b,
-        type: 3}
-    - target: {fileID: 3870092685649322268, guid: 234df36093888fa4abcdef98709e6e0e,
-        type: 3}
       propertyPath: recordStackImage
       value: 
       objectReference: {fileID: 1271254597}

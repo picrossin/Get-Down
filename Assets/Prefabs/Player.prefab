@@ -252,6 +252,8 @@ MonoBehaviour:
   sprintMultiplierTotal: 1.5
   deathParticles: {fileID: 8792176324401698904, guid: 3ab5e65acd747544695ed7656aa8f3e7,
     type: 3}
+  dashParticles: {fileID: 682181071952476358, guid: d385603551b16a448a8db40cc0e74c0b,
+    type: 3}
   recordStackImage: {fileID: 0}
   stack1: {fileID: -4457650998176762566, guid: d41521d0564b91948ac43d2ca176b2d0, type: 3}
   stack2: {fileID: -2125248036894851506, guid: d41521d0564b91948ac43d2ca176b2d0, type: 3}
