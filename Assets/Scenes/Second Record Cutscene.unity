@@ -272,8 +272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 813d36241bef1cd4e9d86d18084105ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsPerLetter: 0.03
-  secondsBetweenLetters: 0.025
+  secondsPerLetter: 0.01
+  secondsBetweenLetters: 0.005
   face: {fileID: 260353682}
   face1: {fileID: 8099576585873111502, guid: dfe6d2de76c504afbbc673f54be444bd, type: 3}
   face2: {fileID: -2114823167226980299, guid: dfe6d2de76c504afbbc673f54be444bd, type: 3}
@@ -287,6 +287,7 @@ MonoBehaviour:
     type: 3}
   recordGetSound: {fileID: 1181343080271968745, guid: ad4631200e14b2d4ea97da21d0d4f3f9,
     type: 3}
+  lastScene: 0
 --- !u!1 &157713947
 GameObject:
   m_ObjectHideFlags: 0

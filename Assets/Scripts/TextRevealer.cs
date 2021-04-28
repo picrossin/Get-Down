@@ -41,8 +41,8 @@ public class TextRevealer : MonoBehaviour
         {
             if (!_textDone)
             {
-                _skipDialogue = true;
-                Instantiate(selectSound);
+                // _skipDialogue = true;
+                // Instantiate(selectSound);
             }
             else if (animateRecord && !_doneClicking)
             {
@@ -61,19 +61,24 @@ public class TextRevealer : MonoBehaviour
     {
         _textDone = false;
         
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.5f);
+
+        int soundEveryChar = 5;
+        int soundEveryCharIndex = 0;
         
         foreach (char character in _textToReveal)
         {
             _uiText.text += character;
+            soundEveryCharIndex++;
 
-            if (_skipDialogue)
-            {
-                break;
-            }
+            // if (_skipDialogue)
+            // {
+            //     break;
+            // }
             
-            if (character != ' ')
+            if (character != ' ' && soundEveryCharIndex >= soundEveryChar)
             {
+                soundEveryCharIndex = 0;
                 Instantiate(voiceSound);
             }
 

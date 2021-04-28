@@ -272,8 +272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 813d36241bef1cd4e9d86d18084105ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsPerLetter: 0.03
-  secondsBetweenLetters: 0.025
+  secondsPerLetter: 0.01
+  secondsBetweenLetters: 0.005
   face: {fileID: 260353682}
   face1: {fileID: 8099576585873111502, guid: dfe6d2de76c504afbbc673f54be444bd, type: 3}
   face2: {fileID: -2114823167226980299, guid: dfe6d2de76c504afbbc673f54be444bd, type: 3}
@@ -286,6 +286,7 @@ MonoBehaviour:
   selectSound: {fileID: 5501855721498772956, guid: db963c58a2eb93c4b8af76b814bd2f45,
     type: 3}
   recordGetSound: {fileID: 0}
+  lastScene: 0
 --- !u!1 &218477275
 GameObject:
   m_ObjectHideFlags: 0

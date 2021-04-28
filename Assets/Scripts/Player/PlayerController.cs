@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject footstep;
     [SerializeField] private float sprintMultiplierTotal = 1.5f;
     [SerializeField] private GameObject deathParticles;
+    [SerializeField] private GameObject dashParticles;
     
     [SerializeField] private Image recordStackImage;
     [SerializeField] private Sprite stack1;
@@ -279,6 +280,7 @@ public class PlayerController : MonoBehaviour
             _dead = true;
             Instantiate(dieSound);
             Instantiate(deathParticles, transform.position, Quaternion.identity);
+            GameObject.FindGameObjectWithTag("LivesTimeManager").GetComponent<LivesTimeManager>().LoseLife();
             GameObject.FindGameObjectWithTag("GameplayManager").GetComponent<GameplayManager>().ResetScene();
             Instantiate(hurtObject, transform.position, Quaternion.identity);
             Destroy(gameObject);
@@ -296,11 +298,15 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Sprint()
     {
-        for (int i = 0; i < 10; i++)
+        Camera.main.GetComponent<ScreenShake>().Shake(0.05f, 0.5f);
+        GameObject particleObj = Instantiate(dashParticles, transform.position + Vector3.back * 0.6f + Vector3.down * 0.7f, Quaternion.identity);
+        particleObj.transform.parent = transform;
+        
+        for (int i = 0; i < 20; i++)
         {
-            _currentSprintMultiplier += 0.1f;
+            _currentSprintMultiplier += 0.2f;
             _currentSprintMultiplier = Mathf.Min(sprintMultiplierTotal, _currentSprintMultiplier);
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.0075f);
         }
     }
 }

@@ -52,7 +52,7 @@ public class Record : MonoBehaviour
                  Mathf.Abs(_rigidbody.velocity.z) <= 1))
             {
                 _onGround = true;
-                GetComponent<Rigidbody>().velocity = Vector3.zero;
+                Destroy(GetComponent<Rigidbody>());
                 Instantiate(fallSound);
                 GetComponent<AudioSource>().Stop();
             }

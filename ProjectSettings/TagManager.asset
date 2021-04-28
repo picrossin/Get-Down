@@ -15,6 +15,7 @@ TagManager:
   - ElevatorTransition
   - DeathTransition
   - Elevator
+  - LivesTimeManager
   layers:
   - Default
   - TransparentFX

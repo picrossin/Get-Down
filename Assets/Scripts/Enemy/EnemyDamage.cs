@@ -24,7 +24,7 @@ public class EnemyDamage : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Record"))
+        if (other.CompareTag("Record") && !other.gameObject.GetComponent<Record>().OnGround)
         {
             TakeDamage(other.transform.position, other.gameObject);
         }
